@@ -1,0 +1,3 @@
+[WARNING]: This PDK does not support the Circuit Validity Checker, skipping...
+[WARNING]: There are max slew violations in the design at the typical corner. Please refer to '../home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/reports/signoff/22-rcx_sta.slew.rpt'.
+[WARNING]: There are max capacitance violations in the design at the typical corner. Please refer to '../home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/reports/signoff/22-rcx_sta.slew.rpt'.

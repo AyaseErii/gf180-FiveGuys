@@ -1,0 +1,21 @@
+OpenROAD 7f00621cb612fd94e15b35790afe744c89d433a7 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Placement Analysis
+---------------------------------
+total displacement        302.4 u
+average displacement        0.0 u
+max displacement            5.6 u
+original HPWL           60474.8 u
+legalized HPWL          60626.8 u
+delta HPWL                    0 %
+
+[INFO DPL-0020] Mirrored 107 instances
+[INFO DPL-0021] HPWL before           60626.8 u
+[INFO DPL-0022] HPWL after            60491.0 u
+[INFO DPL-0023] HPWL delta               -0.2 %
+Setting global connections for newly added cells...
+Writing OpenROAD database to /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/tmp/routing/diodes.odb...
+Writing netlist to /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/tmp/routing/diodes.nl.v...
+Writing powered netlist to /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/tmp/routing/diodes.pnl.v...
+Writing layout to /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/tmp/routing/diodes.def...

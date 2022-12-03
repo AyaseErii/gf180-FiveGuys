@@ -1,0 +1,321 @@
+Netgen 1.5.242 compiled on Wed Nov 16 22:54:20 UTC 2022
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Generating JSON file result
+Reading netlist file /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/cntr_example.spice
+Reading netlist file /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/tmp/signoff/24-cntr_example.pnl.v
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkinv_3.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nor2_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__oai21_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__aoi21_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand3_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand2_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__xor2_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__dffq_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__dffq_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__tiel.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__endcap.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__filltie.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__antenna.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fill_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_16.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_8.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_32.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fill_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_64.
+Reading setup file /home/htf6ry/GF180PDK//gf180mcuC/libs.tech/netgen/gf180mcuC_setup.tcl
+Comparison output logged to file /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/logs/signoff/27-cntr_example.lef.lvs.log
+Logging to file "/home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/logs/signoff/27-cntr_example.lef.lvs.log" enabled
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__fillcap_4'
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_4 contains 0 device instances.
+Circuit contains 0 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__fillcap_4'
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_4 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_4 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__fillcap_64'
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_64 contains 0 device instances.
+Circuit contains 0 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__fillcap_64'
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_64 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_64 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__fillcap_32'
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_32 contains 0 device instances.
+Circuit contains 0 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__fillcap_32'
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_32 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_32 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__fillcap_16'
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_16 contains 0 device instances.
+Circuit contains 0 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__fillcap_16'
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_16 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_16 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__fillcap_8'
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_8 contains 0 device instances.
+Circuit contains 0 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__fillcap_8'
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_8 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__fillcap_8 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__nand3_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__nand3_1 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__nand3_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__nand3_1 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__nand3_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__antenna'
+Circuit gf180mcu_fd_sc_mcu7t5v0__antenna contains 0 device instances.
+Circuit contains 0 nets, and 3 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__antenna'
+Circuit gf180mcu_fd_sc_mcu7t5v0__antenna contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__antenna contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__clkbuf_4'
+Circuit gf180mcu_fd_sc_mcu7t5v0__clkbuf_4 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__clkbuf_4'
+Circuit gf180mcu_fd_sc_mcu7t5v0__clkbuf_4 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__clkbuf_4 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__aoi21_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__aoi21_1 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__aoi21_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__aoi21_1 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__aoi21_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__dffq_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__dffq_1 contains 0 device instances.
+Circuit contains 0 nets, and 5 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__dffq_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__dffq_1 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__dffq_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__tiel'
+Circuit gf180mcu_fd_sc_mcu7t5v0__tiel contains 0 device instances.
+Circuit contains 0 nets, and 3 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__tiel'
+Circuit gf180mcu_fd_sc_mcu7t5v0__tiel contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__tiel contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__dffq_2'
+Circuit gf180mcu_fd_sc_mcu7t5v0__dffq_2 contains 0 device instances.
+Circuit contains 0 nets, and 5 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__dffq_2'
+Circuit gf180mcu_fd_sc_mcu7t5v0__dffq_2 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__dffq_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__oai21_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__oai21_1 contains 0 device instances.
+Circuit contains 0 nets, and 6 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__oai21_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__oai21_1 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__oai21_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__nor2_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__nor2_1 contains 0 device instances.
+Circuit contains 0 nets, and 5 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__nor2_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__nor2_1 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__nor2_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__buf_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__buf_1 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__buf_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__buf_1 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__buf_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__xor2_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__xor2_1 contains 0 device instances.
+Circuit contains 0 nets, and 5 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__xor2_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__xor2_1 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__xor2_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__nand2_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__nand2_1 contains 0 device instances.
+Circuit contains 0 nets, and 5 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__nand2_1'
+Circuit gf180mcu_fd_sc_mcu7t5v0__nand2_1 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__nand2_1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__clkbuf_16'
+Circuit gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__clkbuf_16'
+Circuit gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__buf_2'
+Circuit gf180mcu_fd_sc_mcu7t5v0__buf_2 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__buf_2'
+Circuit gf180mcu_fd_sc_mcu7t5v0__buf_2 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__buf_2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__clkinv_3'
+Circuit gf180mcu_fd_sc_mcu7t5v0__clkinv_3 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'gf180mcu_fd_sc_mcu7t5v0__clkinv_3'
+Circuit gf180mcu_fd_sc_mcu7t5v0__clkinv_3 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit gf180mcu_fd_sc_mcu7t5v0__clkinv_3 contains no devices.
+
+Contents of circuit 1:  Circuit: 'cntr_example'
+Circuit cntr_example contains 28801 device instances.
+  Class: gf180mcu_fd_sc_mcu7t5v0__nand3_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__dffq_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__dffq_2 instances:  15
+  Class: gf180mcu_fd_sc_mcu7t5v0__nand2_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__clkbuf_4 instances:  20
+  Class: gf180mcu_fd_sc_mcu7t5v0__clkinv_3 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__buf_1 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__buf_2 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 instances:   3
+  Class: gf180mcu_fd_sc_mcu7t5v0__aoi21_1 instances:  10
+  Class: gf180mcu_fd_sc_mcu7t5v0__tiel instances:  18
+  Class: gf180mcu_fd_sc_mcu7t5v0__oai21_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_4 instances: 13770
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_8 instances: 274
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_64 instances: 13503
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_16 instances: 438
+  Class: gf180mcu_fd_sc_mcu7t5v0__nor2_1 instances:  15
+  Class: gf180mcu_fd_sc_mcu7t5v0__antenna instances: 160
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_32 instances: 547
+  Class: gf180mcu_fd_sc_mcu7t5v0__xor2_1 instances:   5
+Circuit contains 113 nets.
+Contents of circuit 2:  Circuit: 'cntr_example'
+Circuit cntr_example contains 28801 device instances.
+  Class: gf180mcu_fd_sc_mcu7t5v0__nand3_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__dffq_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__dffq_2 instances:  15
+  Class: gf180mcu_fd_sc_mcu7t5v0__nand2_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__clkbuf_4 instances:  20
+  Class: gf180mcu_fd_sc_mcu7t5v0__clkinv_3 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__buf_1 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__buf_2 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 instances:   3
+  Class: gf180mcu_fd_sc_mcu7t5v0__aoi21_1 instances:  10
+  Class: gf180mcu_fd_sc_mcu7t5v0__tiel instances:  18
+  Class: gf180mcu_fd_sc_mcu7t5v0__oai21_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_4 instances: 13770
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_8 instances: 274
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_64 instances: 13503
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_16 instances: 438
+  Class: gf180mcu_fd_sc_mcu7t5v0__nor2_1 instances:  15
+  Class: gf180mcu_fd_sc_mcu7t5v0__antenna instances: 160
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_32 instances: 547
+  Class: gf180mcu_fd_sc_mcu7t5v0__xor2_1 instances:   5
+Circuit contains 113 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'cntr_example'
+Circuit cntr_example contains 174 device instances.
+  Class: gf180mcu_fd_sc_mcu7t5v0__nand3_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__dffq_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__dffq_2 instances:  15
+  Class: gf180mcu_fd_sc_mcu7t5v0__nand2_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__clkbuf_4 instances:  20
+  Class: gf180mcu_fd_sc_mcu7t5v0__clkinv_3 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__buf_1 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__buf_2 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 instances:   3
+  Class: gf180mcu_fd_sc_mcu7t5v0__aoi21_1 instances:  10
+  Class: gf180mcu_fd_sc_mcu7t5v0__tiel instances:  18
+  Class: gf180mcu_fd_sc_mcu7t5v0__oai21_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_4 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_8 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_64 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_16 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__nor2_1 instances:  15
+  Class: gf180mcu_fd_sc_mcu7t5v0__antenna instances:  60
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_32 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__xor2_1 instances:   5
+Circuit contains 113 nets.
+Contents of circuit 2:  Circuit: 'cntr_example'
+Circuit cntr_example contains 174 device instances.
+  Class: gf180mcu_fd_sc_mcu7t5v0__nand3_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__dffq_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__dffq_2 instances:  15
+  Class: gf180mcu_fd_sc_mcu7t5v0__nand2_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__clkbuf_4 instances:  20
+  Class: gf180mcu_fd_sc_mcu7t5v0__clkinv_3 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__buf_1 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__buf_2 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 instances:   3
+  Class: gf180mcu_fd_sc_mcu7t5v0__aoi21_1 instances:  10
+  Class: gf180mcu_fd_sc_mcu7t5v0__tiel instances:  18
+  Class: gf180mcu_fd_sc_mcu7t5v0__oai21_1 instances:   5
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_4 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_8 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_64 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_16 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__nor2_1 instances:  15
+  Class: gf180mcu_fd_sc_mcu7t5v0__antenna instances:  60
+  Class: gf180mcu_fd_sc_mcu7t5v0__fillcap_32 instances:   1
+  Class: gf180mcu_fd_sc_mcu7t5v0__xor2_1 instances:   5
+Circuit contains 113 nets.
+
+Circuit 1 contains 174 devices, Circuit 2 contains 174 devices.
+Circuit 1 contains 113 nets,    Circuit 2 contains 113 nets.
+
+
+Final result: 
+Circuits match uniquely.
+.
+Logging to file "/home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/logs/signoff/27-cntr_example.lef.lvs.log" disabled
+LVS Done.
