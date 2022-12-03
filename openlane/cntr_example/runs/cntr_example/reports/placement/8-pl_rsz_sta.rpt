@@ -1,0 +1,50 @@
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+Startpoint: wb_rst_i (input port clocked by wb_clk_i)
+Endpoint: _095_ (rising edge-triggered flip-flop clocked by wb_clk_i)
+Path Group: wb_clk_i
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                         13.00   13.00 ^ input external delay
+                  0.14    0.04   13.04 ^ wb_rst_i (in)
+     1    0.00                           wb_rst_i (net)
+                  0.14    0.00   13.04 ^ input1/I (gf180mcu_fd_sc_mcu7t5v0__buf_1)
+                  0.70    0.62   13.67 ^ input1/Z (gf180mcu_fd_sc_mcu7t5v0__buf_1)
+     2    0.03                           net1 (net)
+                  0.70    0.01   13.67 ^ _049_/I (gf180mcu_fd_sc_mcu7t5v0__buf_2)
+                  0.66    0.68   14.35 ^ _049_/Z (gf180mcu_fd_sc_mcu7t5v0__buf_2)
+    10    0.05                           _021_ (net)
+                  0.66    0.00   14.35 ^ _050_/B (gf180mcu_fd_sc_mcu7t5v0__oai21_1)
+                  0.31    0.30   14.65 v _050_/ZN (gf180mcu_fd_sc_mcu7t5v0__oai21_1)
+     1    0.01                           _022_ (net)
+                  0.31    0.00   14.65 v _051_/B (gf180mcu_fd_sc_mcu7t5v0__aoi21_1)
+                  0.90    0.72   15.37 ^ _051_/ZN (gf180mcu_fd_sc_mcu7t5v0__aoi21_1)
+     1    0.01                           _001_ (net)
+                  0.90    0.00   15.37 ^ _095_/D (gf180mcu_fd_sc_mcu7t5v0__dffq_2)
+                                 15.37   data arrival time
+
+                  0.15   65.00   65.00   clock wb_clk_i (rise edge)
+                          0.00   65.00   clock network delay (ideal)
+                         -0.25   64.75   clock uncertainty
+                          0.00   64.75   clock reconvergence pessimism
+                                 64.75 ^ _095_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffq_2)
+                         -0.47   64.28   library setup time
+                                 64.28   data required time
+-----------------------------------------------------------------------------
+                                 64.28   data required time
+                                -15.37   data arrival time
+-----------------------------------------------------------------------------
+                                 48.91   slack (MET)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+No paths found.

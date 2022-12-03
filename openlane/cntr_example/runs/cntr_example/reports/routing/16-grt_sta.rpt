@@ -1,0 +1,48 @@
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+Startpoint: _094_ (rising edge-triggered flip-flop clocked by wb_clk_i)
+Endpoint: io_out[16] (output port clocked by wb_clk_i)
+Path Group: wb_clk_i
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock source latency
+                  0.19    0.09    0.09 ^ wb_clk_i (in)
+     2    0.02                           wb_clk_i (net)
+                  0.19    0.00    0.09 ^ clkbuf_0_wb_clk_i/I (gf180mcu_fd_sc_mcu7t5v0__clkbuf_16)
+                  0.15    0.36    0.45 ^ clkbuf_0_wb_clk_i/Z (gf180mcu_fd_sc_mcu7t5v0__clkbuf_16)
+     2    0.04                           clknet_0_wb_clk_i (net)
+                  0.15    0.00    0.45 ^ clkbuf_1_0__f_wb_clk_i/I (gf180mcu_fd_sc_mcu7t5v0__clkbuf_16)
+                  0.16    0.35    0.80 ^ clkbuf_1_0__f_wb_clk_i/Z (gf180mcu_fd_sc_mcu7t5v0__clkbuf_16)
+    22    0.05                           clknet_1_0__leaf_wb_clk_i (net)
+                  0.16    0.00    0.80 ^ _094_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffq_2)
+                  0.79    1.59    2.39 ^ _094_/Q (gf180mcu_fd_sc_mcu7t5v0__dffq_2)
+    12    0.06                           net9 (net)
+                  0.79    0.03    2.42 ^ output9/I (gf180mcu_fd_sc_mcu7t5v0__clkbuf_4)
+                  0.48    0.73    3.15 ^ output9/Z (gf180mcu_fd_sc_mcu7t5v0__clkbuf_4)
+     1    0.07                           io_out[16] (net)
+                  0.48    0.00    3.15 ^ io_out[16] (out)
+                                  3.15   data arrival time
+
+                         65.00   65.00   clock wb_clk_i (rise edge)
+                          0.00   65.00   clock network delay (propagated)
+                         -0.25   64.75   clock uncertainty
+                          0.00   64.75   clock reconvergence pessimism
+                        -13.00   51.75   output external delay
+                                 51.75   data required time
+-----------------------------------------------------------------------------
+                                 51.75   data required time
+                                 -3.15   data arrival time
+-----------------------------------------------------------------------------
+                                 48.60   slack (MET)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+No paths found.
