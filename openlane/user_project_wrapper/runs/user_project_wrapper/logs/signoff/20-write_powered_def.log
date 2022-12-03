@@ -1,0 +1,52 @@
+OpenROAD 7f00621cb612fd94e15b35790afe744c89d433a7 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 60 technology vias
+[INFO ODB-0225]     Created 230 library cells
+[INFO ODB-0226] Finished LEF file:  /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/results/routing/user_project_wrapper.def
+[INFO ODB-0128] Design: user_project_wrapper
+[INFO ODB-0130]     Created 418 pins.
+[INFO ODB-0131]     Created 1 components and 42 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 2 connections.
+[INFO ODB-0133]     Created 434 nets and 40 connections.
+[INFO ODB-0134] Finished DEF file: /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/results/routing/user_project_wrapper.def
+OpenROAD 7f00621cb612fd94e15b35790afe744c89d433a7 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+warning: `//.tclsh-history' is not writable.
+[?1034hopenroad> 
+openroad>         read_lef /home/htf6ry/gf180-demo/openlane/user_project_wrapper /runs/22_12_03_16_43/tmp/merged.nom.lef
+[INFO ODB-0222] Reading LEF file: /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 60 technology vias
+[INFO ODB-0225]     Created 230 library cells
+[INFO ODB-0226] Finished LEF file:  /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/merged.nom.lef
+openroad>         read_verilog /home/htf6ry/gf180-demo/openlane/user_project_wra pper/runs/22_12_03_16_43/tmp/synthesis/pg_define.v
+openroad>         link_design user_project_wrapper
+[WARNING ORD-1011] LEF master cntr_example has no liberty cell.
+openroad>         write_def /home/htf6ry/gf180-demo/openlane/user_project_wrappe r/runs/22_12_03_16_43/tmp/synthesis/pg_define.intermediate.def
+openroad>         exit
+unable to write history to `//.tclsh-history'
+
+[INFO ODB-0222] Reading LEF file: /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 60 technology vias
+[INFO ODB-0225]     Created 230 library cells
+[INFO ODB-0226] Finished LEF file:  /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/synthesis/pg_define.intermediate.def
+[INFO ODB-0128] Design: user_project_wrapper
+[INFO ODB-0130]     Created 418 pins.
+[INFO ODB-0131]     Created 1 components and 42 component-terminals.
+[INFO ODB-0133]     Created 436 nets and 42 connections.
+[INFO ODB-0134] Finished DEF file: /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/synthesis/pg_define.intermediate.def
+Top-level design name: user_project_wrapper
+Found default power net 'vdd'
+Found default ground net 'vss'
+Found 1 power ports.
+Found 1 ground ports.
+Modified power connections of 1/1 cells.
+Connected vdd to cntr_example_1/vdd.
+Connected vss to cntr_example_1/vss.

@@ -1,0 +1,601 @@
+OpenROAD 7f00621cb612fd94e15b35790afe744c89d433a7 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Setting signal min routing layer to: Metal2 and clock min routing layer to Metal2. 
+[INFO]: Setting signal max routing layer to: Metal4 and clock max routing layer to Metal4. 
+-congestion_iterations 50 -verbose
+[INFO GRT-0020] Min routing layer: Metal2
+[INFO GRT-0021] Max routing layer: Metal4
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer Metal1  Track-Pitch = 0.5600  line-2-Via Pitch: 0.5450
+[INFO GRT-0088] Layer Metal2  Track-Pitch = 0.5600  line-2-Via Pitch: 0.5800
+[INFO GRT-0088] Layer Metal3  Track-Pitch = 0.5600  line-2-Via Pitch: 0.5800
+[INFO GRT-0088] Layer Metal4  Track-Pitch = 0.5600  line-2-Via Pitch: 0.5800
+[INFO GRT-0019] Found 0 clock nets.
+[WARNING GRT-0036] Pin io_in[0] is outside die area.
+[WARNING GRT-0036] Pin io_in[10] is outside die area.
+[WARNING GRT-0036] Pin io_in[11] is outside die area.
+[WARNING GRT-0036] Pin io_in[12] is outside die area.
+[WARNING GRT-0036] Pin io_in[13] is outside die area.
+[WARNING GRT-0036] Pin io_in[14] is outside die area.
+[WARNING GRT-0036] Pin io_in[15] is outside die area.
+[WARNING GRT-0036] Pin io_in[16] is outside die area.
+[WARNING GRT-0036] Pin io_in[17] is outside die area.
+[WARNING GRT-0036] Pin io_in[18] is outside die area.
+[WARNING GRT-0036] Pin io_in[19] is outside die area.
+[WARNING GRT-0036] Pin io_in[1] is outside die area.
+[WARNING GRT-0036] Pin io_in[20] is outside die area.
+[WARNING GRT-0036] Pin io_in[21] is outside die area.
+[WARNING GRT-0036] Pin io_in[22] is outside die area.
+[WARNING GRT-0036] Pin io_in[23] is outside die area.
+[WARNING GRT-0036] Pin io_in[24] is outside die area.
+[WARNING GRT-0036] Pin io_in[25] is outside die area.
+[WARNING GRT-0036] Pin io_in[26] is outside die area.
+[WARNING GRT-0036] Pin io_in[27] is outside die area.
+[WARNING GRT-0036] Pin io_in[28] is outside die area.
+[WARNING GRT-0036] Pin io_in[29] is outside die area.
+[WARNING GRT-0036] Pin io_in[2] is outside die area.
+[WARNING GRT-0036] Pin io_in[30] is outside die area.
+[WARNING GRT-0036] Pin io_in[31] is outside die area.
+[WARNING GRT-0036] Pin io_in[32] is outside die area.
+[WARNING GRT-0036] Pin io_in[33] is outside die area.
+[WARNING GRT-0036] Pin io_in[34] is outside die area.
+[WARNING GRT-0036] Pin io_in[35] is outside die area.
+[WARNING GRT-0036] Pin io_in[36] is outside die area.
+[WARNING GRT-0036] Pin io_in[37] is outside die area.
+[WARNING GRT-0036] Pin io_in[3] is outside die area.
+[WARNING GRT-0036] Pin io_in[4] is outside die area.
+[WARNING GRT-0036] Pin io_in[5] is outside die area.
+[WARNING GRT-0036] Pin io_in[6] is outside die area.
+[WARNING GRT-0036] Pin io_in[7] is outside die area.
+[WARNING GRT-0036] Pin io_in[8] is outside die area.
+[WARNING GRT-0036] Pin io_in[9] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[0] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[10] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[11] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[12] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[13] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[14] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[15] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[16] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[17] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[18] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[19] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[1] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[20] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[21] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[22] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[23] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[24] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[25] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[26] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[27] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[28] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[29] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[2] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[30] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[31] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[32] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[33] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[34] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[35] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[36] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[37] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[3] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[4] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[5] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[6] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[7] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[8] is outside die area.
+[WARNING GRT-0036] Pin io_oeb[9] is outside die area.
+[WARNING GRT-0036] Pin io_out[0] is outside die area.
+[WARNING GRT-0036] Pin io_out[10] is outside die area.
+[WARNING GRT-0036] Pin io_out[11] is outside die area.
+[WARNING GRT-0036] Pin io_out[12] is outside die area.
+[WARNING GRT-0036] Pin io_out[13] is outside die area.
+[WARNING GRT-0036] Pin io_out[14] is outside die area.
+[WARNING GRT-0036] Pin io_out[15] is outside die area.
+[WARNING GRT-0036] Pin io_out[16] is outside die area.
+[WARNING GRT-0036] Pin io_out[17] is outside die area.
+[WARNING GRT-0036] Pin io_out[18] is outside die area.
+[WARNING GRT-0036] Pin io_out[19] is outside die area.
+[WARNING GRT-0036] Pin io_out[1] is outside die area.
+[WARNING GRT-0036] Pin io_out[20] is outside die area.
+[WARNING GRT-0036] Pin io_out[21] is outside die area.
+[WARNING GRT-0036] Pin io_out[22] is outside die area.
+[WARNING GRT-0036] Pin io_out[23] is outside die area.
+[WARNING GRT-0036] Pin io_out[24] is outside die area.
+[WARNING GRT-0036] Pin io_out[25] is outside die area.
+[WARNING GRT-0036] Pin io_out[26] is outside die area.
+[WARNING GRT-0036] Pin io_out[27] is outside die area.
+[WARNING GRT-0036] Pin io_out[28] is outside die area.
+[WARNING GRT-0036] Pin io_out[29] is outside die area.
+[WARNING GRT-0036] Pin io_out[2] is outside die area.
+[WARNING GRT-0036] Pin io_out[30] is outside die area.
+[WARNING GRT-0036] Pin io_out[31] is outside die area.
+[WARNING GRT-0036] Pin io_out[32] is outside die area.
+[WARNING GRT-0036] Pin io_out[33] is outside die area.
+[WARNING GRT-0036] Pin io_out[34] is outside die area.
+[WARNING GRT-0036] Pin io_out[35] is outside die area.
+[WARNING GRT-0036] Pin io_out[36] is outside die area.
+[WARNING GRT-0036] Pin io_out[37] is outside die area.
+[WARNING GRT-0036] Pin io_out[3] is outside die area.
+[WARNING GRT-0036] Pin io_out[4] is outside die area.
+[WARNING GRT-0036] Pin io_out[5] is outside die area.
+[WARNING GRT-0036] Pin io_out[6] is outside die area.
+[WARNING GRT-0036] Pin io_out[7] is outside die area.
+[WARNING GRT-0036] Pin io_out[8] is outside die area.
+[WARNING GRT-0036] Pin io_out[9] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[0] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[10] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[11] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[12] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[13] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[14] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[15] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[16] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[17] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[18] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[19] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[1] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[20] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[21] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[22] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[23] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[24] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[25] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[26] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[27] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[28] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[29] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[2] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[30] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[31] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[32] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[33] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[34] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[35] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[36] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[37] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[38] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[39] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[3] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[40] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[41] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[42] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[43] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[44] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[45] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[46] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[47] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[48] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[49] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[4] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[50] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[51] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[52] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[53] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[54] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[55] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[56] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[57] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[58] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[59] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[5] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[60] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[61] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[62] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[63] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[6] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[7] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[8] is outside die area.
+[WARNING GRT-0036] Pin la_data_in[9] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[0] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[10] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[11] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[12] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[13] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[14] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[15] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[16] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[17] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[18] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[19] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[1] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[20] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[21] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[22] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[23] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[24] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[25] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[26] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[27] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[28] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[29] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[2] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[30] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[31] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[32] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[33] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[34] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[35] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[36] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[37] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[38] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[39] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[3] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[40] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[41] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[42] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[43] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[44] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[45] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[46] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[47] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[48] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[49] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[4] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[50] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[51] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[52] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[53] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[54] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[55] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[56] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[57] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[58] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[59] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[5] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[60] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[61] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[62] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[63] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[6] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[7] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[8] is outside die area.
+[WARNING GRT-0036] Pin la_data_out[9] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[0] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[10] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[11] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[12] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[13] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[14] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[15] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[16] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[17] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[18] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[19] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[1] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[20] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[21] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[22] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[23] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[24] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[25] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[26] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[27] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[28] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[29] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[2] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[30] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[31] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[32] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[33] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[34] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[35] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[36] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[37] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[38] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[39] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[3] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[40] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[41] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[42] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[43] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[44] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[45] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[46] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[47] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[48] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[49] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[4] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[50] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[51] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[52] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[53] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[54] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[55] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[56] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[57] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[58] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[59] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[5] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[60] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[61] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[62] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[63] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[6] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[7] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[8] is outside die area.
+[WARNING GRT-0036] Pin la_oenb[9] is outside die area.
+[WARNING GRT-0036] Pin user_clock2 is outside die area.
+[WARNING GRT-0036] Pin user_irq[0] is outside die area.
+[WARNING GRT-0036] Pin user_irq[1] is outside die area.
+[WARNING GRT-0036] Pin user_irq[2] is outside die area.
+[WARNING GRT-0036] Pin wb_clk_i is outside die area.
+[WARNING GRT-0036] Pin wb_rst_i is outside die area.
+[WARNING GRT-0036] Pin wbs_ack_o is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[0] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[10] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[11] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[12] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[13] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[14] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[15] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[16] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[17] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[18] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[19] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[1] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[20] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[21] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[22] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[23] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[24] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[25] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[26] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[27] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[28] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[29] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[2] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[30] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[31] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[3] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[4] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[5] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[6] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[7] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[8] is outside die area.
+[WARNING GRT-0036] Pin wbs_adr_i[9] is outside die area.
+[WARNING GRT-0036] Pin wbs_cyc_i is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[0] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[10] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[11] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[12] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[13] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[14] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[15] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[16] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[17] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[18] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[19] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[1] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[20] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[21] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[22] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[23] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[24] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[25] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[26] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[27] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[28] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[29] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[2] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[30] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[31] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[3] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[4] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[5] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[6] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[7] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[8] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_i[9] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[0] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[10] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[11] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[12] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[13] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[14] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[15] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[16] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[17] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[18] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[19] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[1] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[20] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[21] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[22] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[23] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[24] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[25] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[26] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[27] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[28] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[29] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[2] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[30] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[31] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[3] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[4] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[5] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[6] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[7] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[8] is outside die area.
+[WARNING GRT-0036] Pin wbs_dat_o[9] is outside die area.
+[WARNING GRT-0036] Pin wbs_sel_i[0] is outside die area.
+[WARNING GRT-0036] Pin wbs_sel_i[1] is outside die area.
+[WARNING GRT-0036] Pin wbs_sel_i[2] is outside die area.
+[WARNING GRT-0036] Pin wbs_sel_i[3] is outside die area.
+[WARNING GRT-0036] Pin wbs_stb_i is outside die area.
+[WARNING GRT-0036] Pin wbs_we_i is outside die area.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 2
+[INFO GRT-0003] Macros: 1
+[WARNING GRT-0040] Net vss has wires outside die area.
+[INFO GRT-0004] Blockages: 44
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+Metal1     Horizontal          0             0          0.00%
+Metal2     Vertical      1784286        860808          51.76%
+Metal3     Horizontal    1784286        860808          51.76%
+Metal4     Vertical      1784286        973611          45.43%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 72
+[INFO GRT-0198] Via related Steiner nodes: 0
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 136
+[INFO GRT-0112] Final usage 3D: 7263
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+Metal1               0             0            0.00%             0 /  0 /  0
+Metal2          860808          3388            0.39%             0 /  0 /  0
+Metal3          860808          3467            0.40%             0 /  0 /  0
+Metal4          973611             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total          2695227          6855            0.25%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 59404 um
+[INFO GRT-0014] Routed nets: 22
+[INFO]: Setting RC values...
+[INFO RSZ-0033] No hold violations found.
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL           57476.8 u
+legalized HPWL          57476.8 u
+delta HPWL                    0 %
+
+Setting global connections for newly added cells...
+Writing OpenROAD database to /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/9-user_project_wrapper.odb...
+Writing netlist to /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/9-user_project_wrapper.nl.v...
+Writing powered netlist to /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/9-user_project_wrapper.pnl.v...
+Writing layout to /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/9-user_project_wrapper.def...
+Writing timing constraints to /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/9-user_project_wrapper.sdc...
+min_report
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+No paths found.
+min_report_end
+max_report
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+No paths found.
+max_report_end
+check_report
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+Startpoint: wb_rst_i (input port clocked by user_clock2)
+Endpoint: cntr_example_1/wb_rst_i (internal pin)
+Path Group: (none)
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                         13.00   13.00 ^ input external delay
+                  0.91    0.53   13.53 ^ wb_rst_i (in)
+     1    0.04                           wb_rst_i (net)
+                  0.91    0.00   13.53 ^ cntr_example_1/wb_rst_i (cntr_example)
+                                 13.53   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+No paths found.
+check_report_end
+check_slew
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+check_slew_end
+tns_report
+
+===========================================================================
+ report_tns
+============================================================================
+tns 0.00
+tns_report_end
+wns_report
+
+===========================================================================
+ report_wns
+============================================================================
+wns 0.00
+wns_report_end
+worst_slack
+
+===========================================================================
+ report_worst_slack -max (Setup)
+============================================================================
+worst slack INF
+
+===========================================================================
+ report_worst_slack -min (Hold)
+============================================================================
+worst slack INF
+worst_slack_end
+clock_skew
+
+===========================================================================
+ report_clock_skew
+============================================================================
+Clock user_clock2
+No launch/capture paths found.
+
+clock_skew_end
+power_report
+
+===========================================================================
+ report_power
+============================================================================
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+                           0.0%       0.0%       0.0%
+power_report_end
+area_report
+
+===========================================================================
+ report_design_area
+============================================================================
+Design area 2250000 u^2 26% utilization.
+area_report_end
+Setting global connections for newly added cells...
+Writing OpenROAD database to /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/9-user_project_wrapper.odb...
+Writing netlist to /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/9-user_project_wrapper.nl.v...
+Writing powered netlist to /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/9-user_project_wrapper.pnl.v...
+Writing layout to /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/9-user_project_wrapper.def...
+Writing timing constraints to /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/9-user_project_wrapper.sdc...

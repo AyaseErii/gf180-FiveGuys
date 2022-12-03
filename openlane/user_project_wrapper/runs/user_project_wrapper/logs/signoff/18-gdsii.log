@@ -1,0 +1,233 @@
+
+Magic 8.3 revision 331 - Compiled on Sat Oct 22 18:40:56 UTC 2022.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology gf180mcuC ...
+10 Magic internal units = 1 Lambda
+Input style import: scaleFactor=10, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    obsactive mvobsactive filldiff fillpoly m1hole obsm1 fillm1 obsv1 m2hole obsm2 fillm2 obsv2 m3hole obsm3 fillm3 m4hole obsm4 fillm4 m5hole obsm5 fillm5 glass fillblock lvstext obscomment 
+Scaled tech values by 10 / 1 to match internal grid scaling
+Loading gf180mcuC Device Generator Menu ...
+Using technology "gf180mcuC", version 1.0.349-0-g0059588
+Reading LEF data from file /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/techlef/gf180mcu_fd_sc_mcu7t5v0.tlef.
+This action cannot be undone.
+LEF read, Line 78 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 85 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 95 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 96 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 110 (Message): Unknown keyword "ARRAYSPACING" in LEF file; ignoring.
+LEF read, Line 114 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 126 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 133 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 134 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 135 (Message): Unknown keyword "ANTENNAGATEPLUSDIFF" in LEF file; ignoring.
+LEF read, Line 144 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 145 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 161 (Message): Unknown keyword "ARRAYSPACING" in LEF file; ignoring.
+LEF read, Line 165 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 177 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 184 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 185 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 186 (Message): Unknown keyword "ANTENNAGATEPLUSDIFF" in LEF file; ignoring.
+LEF read, Line 195 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 196 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 212 (Message): Unknown keyword "ARRAYSPACING" in LEF file; ignoring.
+LEF read, Line 216 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 228 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 235 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 236 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 237 (Message): Unknown keyword "ANTENNAGATEPLUSDIFF" in LEF file; ignoring.
+LEF read, Line 246 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 247 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 264 (Message): Unknown keyword "ARRAYSPACING" in LEF file; ignoring.
+LEF read, Line 268 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 282 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 294 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 295 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 296 (Message): Unknown keyword "ANTENNAGATEPLUSDIFF" in LEF file; ignoring.
+LEF read, Line 301 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 302 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read: Processed 1366 lines.
+Reading LEF data from file /home/htf6ry/gf180-demo/openlane/user_project_wrapper/../../lef/cntr_example.lef.
+This action cannot be undone.
+LEF read: Processed 470 lines.
+Reading DEF data from file /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/results/routing/user_project_wrapper.def.
+This action cannot be undone.
+  Processed 2 vias total.
+  Processed 1 subcell instances total.
+  Processed 418 pins total.
+  Processed 2 special nets total.
+  Processed 434 nets total.
+DEF read: Processed 6721 lines.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  3000.000 x 3000.000  ( 0.000,  0.000), ( 3000.000,  3000.000)  9000000.000
+lambda:   60000.00 x 60000.00  (  0.00,  0.00 ), ( 60000.00,  60000.00)  3600000256.00
+internal: 600000 x 600000  (     0,  0    ), ( 600000,  600000)  360000000000
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: cntr_example
+Reading "gf180mcu_fd_sc_mcu7t5v0__tiel".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__tiel.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__tiel.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__tiel.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__tiel.
+Reading "gf180mcu_fd_sc_mcu7t5v0__endcap".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__endcap.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__endcap.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__endcap.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__endcap.
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_16".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_16.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_16.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_16.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_16.
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_4".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_4.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_4.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_4.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_4.
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_8".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8.
+Reading "gf180mcu_fd_sc_mcu7t5v0__fill_1".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_1.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_1.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_1.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_1.
+Reading "gf180mcu_fd_sc_mcu7t5v0__filltie".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__filltie.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__filltie.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__filltie.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__filltie.
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_64".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64.
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_32".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32.
+Reading "gf180mcu_fd_sc_mcu7t5v0__fill_2".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_2.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_2.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_2.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_2.
+Reading "gf180mcu_fd_sc_mcu7t5v0__antenna".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__antenna.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__antenna.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__antenna.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__antenna.
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkbuf_4".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.
+Reading "gf180mcu_fd_sc_mcu7t5v0__buf_1".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_1.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_1.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_1.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_1.
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkinv_3".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__clkinv_3.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkinv_3.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkinv_3.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkinv_3.
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi21_1".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__aoi21_1.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__aoi21_1.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__aoi21_1.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__aoi21_1.
+Reading "gf180mcu_fd_sc_mcu7t5v0__nand2_1".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__nand2_1.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nand2_1.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nand2_1.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nand2_1.
+Reading "gf180mcu_fd_sc_mcu7t5v0__nand3_1".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__nand3_1.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nand3_1.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nand3_1.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nand3_1.
+Reading "gf180mcu_fd_sc_mcu7t5v0__nor2_1".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__nor2_1.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nor2_1.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nor2_1.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nor2_1.
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai21_1".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__oai21_1.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__oai21_1.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__oai21_1.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__oai21_1.
+Reading "gf180mcu_fd_sc_mcu7t5v0__xor2_1".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__xor2_1.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__xor2_1.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__xor2_1.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__xor2_1.
+Reading "gf180mcu_fd_sc_mcu7t5v0__buf_2".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_2.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_2.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_2.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_2.
+Reading "gf180mcu_fd_sc_mcu7t5v0__dffq_1".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_1.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_1.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_1.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_1.
+Reading "gf180mcu_fd_sc_mcu7t5v0__dffq_2".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_2.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_2.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_2.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_2.
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16".
+Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
+Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
+Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
+Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
+Reading "cntr_example".
+Warning:  cell cntr_example already existed before reading GDS!
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_4
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__filltie
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__endcap
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__fill_1
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__fill_2
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__fillcap_4
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__antenna
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__tiel
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__fillcap_16
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__dffq_1
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__dffq_2
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__nor2_1
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__aoi21_1
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__xor2_1
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__nand2_1
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__nand3_1
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__oai21_1
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__buf_2
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__clkinv_3
+   Generating output for cell gf180mcu_fd_sc_mcu7t5v0__buf_1
+   Generating output for cell cntr_example
+   Generating output for cell user_project_wrapper
+[INFO]: GDS Write Complete
