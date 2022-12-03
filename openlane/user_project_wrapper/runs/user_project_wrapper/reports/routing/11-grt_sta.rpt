@@ -1,0 +1,25 @@
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+Startpoint: wb_rst_i (input port clocked by user_clock2)
+Endpoint: cntr_example_1/wb_rst_i (internal pin)
+Path Group: (none)
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                         13.00   13.00 ^ input external delay
+                  0.91    0.53   13.53 ^ wb_rst_i (in)
+     1    0.04                           wb_rst_i (net)
+                  0.91    0.00   13.53 ^ cntr_example_1/wb_rst_i (cntr_example)
+                                 13.53   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+No paths found.

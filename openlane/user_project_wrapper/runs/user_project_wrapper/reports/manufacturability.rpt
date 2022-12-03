@@ -1,0 +1,16 @@
+Design Name: user_project_wrapper
+Run Directory: /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43
+----------------------------------------
+
+Magic DRC Summary:
+Source: /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/logs/signoff/user_project_wrapper.lvs.lef.log
+Source not found.
+----------------------------------------
+
+Antenna Summary:
+No antenna report found.
