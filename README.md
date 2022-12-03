@@ -16,8 +16,8 @@ Before running the design flow, please make sure the gf180 PDK was installed cor
 
 Once you have done with PDK setups, you can simply follow the commands below after you changed the corresponding [cntr_example.v](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/verilog/rtl/cntr_example.v), [config.tcl](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/openlane/cntr_example/config.tcl) file, all files in the [includes](https://github.com/AyaseErii/gf180-FiveGuys/tree/main/verilog/includes) directory, and the [uprj_netlist.v](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/verilog/rtl/uprj_netlists.v) of the counter:
 ```
-git clone https://github.com/AyaseErii/gf180-demo-binary_counter.git
-cd gf180-demo-binary_counter
+git clone https://github.com/AyaseErii/gf180-FiveGuys.git
+cd gf180-FiveGuys
 make cntr_example
 ```
 
