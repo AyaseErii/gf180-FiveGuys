@@ -5,11 +5,11 @@
 | :exclamation: GF180mcuC shuttle MPW0            |
 |-----------------------------------------|
 
-## Binary Counter
+## FiveGuys
 
-This is a binary counter with `clock`, `reset`, `data_in`, `scanload`, and `count_out`.
+This is a simple design with five 4-bit up-counters. The ports of each counter are `clock`, `reset`, `io_out`.
 
-The counter design (gdsii file) is located at [here](https://github.com/AyaseErii/gf180-demo-sequential_counter/tree/main/openlane/cntr_example/runs/cntr_example/results/final/gds) and the wrappered counter (gdsii file) is located at [here](https://github.com/AyaseErii/gf180-demo-sequential_counter/tree/main/openlane/user_project_wrapper/runs/user_project_wrapper/results/final/gds).
+The FiveGuys design (gdsii file) is located at [here](https://github.com/AyaseErii/gf180-FiveGuys/tree/main/openlane/cntr_example/runs/cntr_example/results/final/gds) and the wrappered counter (gdsii file) is located at [here](https://github.com/AyaseErii/gf180-demo-sequential_counter/tree/main/openlane/user_project_wrapper/runs/user_project_wrapper/results/final/gds).
 
 ### Step 1: Create the Digital Counter Design
 Before running the design flow, please make sure the gf180 PDK was installed correctly. For the information about switching PDK from `sky130` to `gf180mcuC`, you may refer to [this video](https://www.youtube.com/watch?v=4-kISttsPbY). (Great thanks to Matt)
