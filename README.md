@@ -23,6 +23,9 @@ make cntr_example
 
 The command above will generate the digital counter design (gdsii) and all necessary files for the next step---wrapper the design in to `user_project_wrapper`.
 
+Sample result:
+![image](https://user-images.githubusercontent.com/70917894/205464861-30865a91-fe15-4bbe-85c4-f465b9a114cc.png)
+
 ### Step 2: Harden the Five Counters in the Wrapper
 
 Before running the flow of `user_project_wrapper`, please make sure you changed the [user_project_wrapper.v](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/verilog/rtl/user_project_wrapper.v), [config.tcl](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/openlane/user_project_wrapper/config.tcl) for the `user_project_wrapper` design, and [macro.cfg](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/openlane/user_project_wrapper/macro.cfg) for macro placement.
@@ -33,6 +36,10 @@ make user_project_wrapper
 ```
 
 After the flow compeleted, you can repeat the Step 2 iteratively until you get a satisfied design.
+
+Sample result:
+![image](https://user-images.githubusercontent.com/70917894/205464876-15474901-706c-4385-9581-77a05267b07f.png)
+
 
 ## Contributors
 Jun (Jerry) Yin, Ceylan M. Morgul, Rahul Sreekumar, Xuanjia (Eric) Bi, and Mircea R. Stan.
