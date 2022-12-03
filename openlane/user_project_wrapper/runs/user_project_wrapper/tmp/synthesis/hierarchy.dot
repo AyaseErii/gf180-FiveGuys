@@ -1,0 +1,33 @@
+digraph "user_project_wrapper" {
+label="user_project_wrapper";
+rankdir="LR";
+remincross=true;
+n1 [ shape=octagon, label="user_irq", color="black", fontcolor="black" ];
+n2 [ shape=octagon, label="user_clock2", color="black", fontcolor="black" ];
+n3 [ shape=octagon, label="io_oeb", color="black", fontcolor="black" ];
+n4 [ shape=octagon, label="io_out", color="black", fontcolor="black" ];
+n5 [ shape=octagon, label="io_in", color="black", fontcolor="black" ];
+n6 [ shape=octagon, label="la_oenb", color="black", fontcolor="black" ];
+n7 [ shape=octagon, label="la_data_out", color="black", fontcolor="black" ];
+n8 [ shape=octagon, label="la_data_in", color="black", fontcolor="black" ];
+n9 [ shape=octagon, label="wbs_dat_o", color="black", fontcolor="black" ];
+n10 [ shape=octagon, label="wbs_ack_o", color="black", fontcolor="black" ];
+n11 [ shape=octagon, label="wbs_adr_i", color="black", fontcolor="black" ];
+n12 [ shape=octagon, label="wbs_dat_i", color="black", fontcolor="black" ];
+n13 [ shape=octagon, label="wbs_sel_i", color="black", fontcolor="black" ];
+n14 [ shape=octagon, label="wbs_we_i", color="black", fontcolor="black" ];
+n15 [ shape=octagon, label="wbs_cyc_i", color="black", fontcolor="black" ];
+n16 [ shape=octagon, label="wbs_stb_i", color="black", fontcolor="black" ];
+n17 [ shape=octagon, label="wb_rst_i", color="black", fontcolor="black" ];
+n18 [ shape=octagon, label="wb_clk_i", color="black", fontcolor="black" ];
+n19 [ shape=octagon, label="vss", color="black", fontcolor="black" ];
+n20 [ shape=octagon, label="vdd", color="black", fontcolor="black" ];
+c21 [ shape=record, label="{{<p18> wb_clk_i|<p17> wb_rst_i}|cntr_example_1\ncntr_example|{<p4> io_out|<p20> vdd|<p19> vss}}" ];
+x0 [ shape=record, style=rounded, label="<s0> 19:0 - 19:0 " ];
+c21:p4:e -> x0:w [arrowhead=odiamond, arrowtail=odiamond, dir=both, color="black", style="setlinewidth(3)", label=""];
+n17:e -> c21:p17:w [color="black", label=""];
+n18:e -> c21:p18:w [color="black", label=""];
+c21:p19:e -> n19:w [color="black", label=""];
+c21:p20:e -> n20:w [color="black", label=""];
+x0:s0:e -> n4:w [color="black", style="setlinewidth(3)", label=""];
+}
