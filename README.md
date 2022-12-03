@@ -23,8 +23,6 @@ make cntr_example
 
 The command above will generate the digital counter design (gdsii) and all necessary files for the next step---wrapper the design in to `user_project_wrapper`.
 
-Sample result:
-![image](https://user-images.githubusercontent.com/70917894/205464861-30865a91-fe15-4bbe-85c4-f465b9a114cc.png)
 
 ### Step 2: Harden the Five Counters in the Wrapper
 
