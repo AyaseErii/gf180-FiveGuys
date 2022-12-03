@@ -25,7 +25,7 @@ The command above will generate the digital counter design (gdsii) and all neces
 
 ### Step 2: Create the Wrappered Digital Counter
 
-Before running the flow of `user_project_wrapper`, please make sure you changed the [user_project_wrapper.v](https://github.com/AyaseErii/gf180-demo-sequential_counter/blob/main/verilog/rtl/user_project_wrapper.v), [config.tcl](https://github.com/AyaseErii/gf180-demo-sequential_counter/blob/main/openlane/user_project_wrapper/config.tcl) of the `user_project_wrapper.v`, and [macro.cfg](https://github.com/AyaseErii/gf180-demo-sequential_counter/blob/main/openlane/user_project_wrapper/macro.cfg) for macro placement.
+Before running the flow of `user_project_wrapper`, please make sure you changed the [user_project_wrapper.v](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/verilog/rtl/user_project_wrapper.v), [config.tcl](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/openlane/user_project_wrapper/config.tcl) for the `user_project_wrapper` design, and [macro.cfg](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/openlane/user_project_wrapper/macro.cfg) for macro placement.
 
 Once you have done with the above commands, you need to go to `gf180-demo-binary_counter` directory again, and use the command below:
 ```
