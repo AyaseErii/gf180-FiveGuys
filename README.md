@@ -35,7 +35,7 @@ make user_project_wrapper
 
 After the flow compeleted, you can repeat the Step 2 iteratively until you get a satisfied design.
 
-Sample result:
+Sample result of the FiveGuys wrapper:
 ![image](https://user-images.githubusercontent.com/70917894/205464876-15474901-706c-4385-9581-77a05267b07f.png)
 
 
