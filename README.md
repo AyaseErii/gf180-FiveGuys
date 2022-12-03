@@ -11,7 +11,7 @@ This is a simple design with five 4-bit up-counters. The ports of each counter a
 
 The FiveGuys design (gdsii file) is located at [here](https://github.com/AyaseErii/gf180-FiveGuys/tree/main/openlane/cntr_example/runs/cntr_example/results/final/gds) and the wrappered counter (gdsii file) is located at [here](https://github.com/AyaseErii/gf180-FiveGuys/tree/main/openlane/user_project_wrapper/runs/user_project_wrapper/results/final/gds).
 
-### Step 1: Create the Design with Five counters
+### Step 1: Create the Design with Five Counters
 Before running the design flow, please make sure the gf180 PDK was installed correctly. For the information about switching PDK from `sky130` to `gf180mcuC`, you may refer to [this video](https://www.youtube.com/watch?v=4-kISttsPbY). (Great thanks to Matt)
 
 Once you have done with PDK setups, you can simply follow the commands below after you changed the corresponding [cntr_example.v](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/verilog/rtl/cntr_example.v), [config.tcl](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/openlane/cntr_example/config.tcl) file, all files in the [includes](https://github.com/AyaseErii/gf180-FiveGuys/tree/main/verilog/includes) directory, and the [uprj_netlist.v](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/verilog/rtl/uprj_netlists.v) of the counter:
@@ -23,7 +23,7 @@ make cntr_example
 
 The command above will generate the digital counter design (gdsii) and all necessary files for the next step---wrapper the design in to `user_project_wrapper`.
 
-### Step 2: Create the Wrappered Digital Counter
+### Step 2: Harden the Five Counters in the Wrapper
 
 Before running the flow of `user_project_wrapper`, please make sure you changed the [user_project_wrapper.v](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/verilog/rtl/user_project_wrapper.v), [config.tcl](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/openlane/user_project_wrapper/config.tcl) for the `user_project_wrapper` design, and [macro.cfg](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/openlane/user_project_wrapper/macro.cfg) for macro placement.
 
