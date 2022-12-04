@@ -13,11 +13,13 @@ set ::env(STD_CELL_LIBRARY) "gf180mcu_fd_sc_mcu7t5v0"
 set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/../../verilog/rtl/cntr_example.v]
 
 # set absolute size of the die to 300 x 300 um
-#set ::env(DIE_AREA) "0 0 900 900" for two 4-bit counter
+#for two 4-bit counter
+#set ::env(DIE_AREA) "0 0 400 400" 
 set ::env(DIE_AREA) "0 0 1500 1500"
 set ::env(FP_SIZING) absolute
 
-#set ::env(FP_CORE_UTIL) 40 for two 4-bit counter
+#for two 4-bit counter
+#set ::env(FP_CORE_UTIL) 40 
 set ::env(FP_CORE_UTIL) 20
 set ::env(PL_TARGET_DENSITY) [ expr ($::env(FP_CORE_UTIL)+5) / 100.0 ]
 
@@ -27,7 +29,8 @@ set ::env(SYNTH_DEFINES) "MPRJ_IO_PADS=38"
 # clock period is ns
 # need 40MHz for VGA out = 25ns
 # copied from VGA example
-#set ::env(CLOCK_PERIOD) "35" for two 4-bit counter
+# for two 4-bit counter
+#set ::env(CLOCK_PERIOD) "30" 
 set ::env(CLOCK_PERIOD) "65"
 set ::env(CLOCK_PORT) "wb_clk_i"
 #set ::env(CLOCK_PORT) "clk"
