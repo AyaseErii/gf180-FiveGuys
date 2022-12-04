@@ -10,10 +10,10 @@ Path Type: max
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                          13.00   13.00 ^ input external delay
-                  0.91    0.53   13.53 ^ wb_rst_i (in)
+                  0.61    0.36   13.36 ^ wb_rst_i (in)
      1    0.04                           wb_rst_i (net)
-                  0.91    0.00   13.53 ^ cntr_example_1/wb_rst_i (cntr_example)
-                                 13.53   data arrival time
+                  0.61    0.00   13.36 ^ cntr_example_1/wb_rst_i (cntr_example)
+                                 13.36   data arrival time
 -----------------------------------------------------------------------------
 (Path is unconstrained)
 

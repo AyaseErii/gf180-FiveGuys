@@ -2,13 +2,13 @@ Netgen 1.5.242 compiled on Wed Nov 16 22:54:20 UTC 2022
 Warning: netgen command 'format' use fully-qualified name '::netgen::format'
 Warning: netgen command 'global' use fully-qualified name '::netgen::global'
 Generating JSON file result
-Reading netlist file /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/results/signoff/user_project_wrapper.spice
-Reading netlist file /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/tmp/signoff/19-user_project_wrapper.pnl.v
+Reading netlist file /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/results/signoff/user_project_wrapper.spice
+Reading netlist file /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/tmp/signoff/19-user_project_wrapper.pnl.v
 Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
 Creating placeholder cell definition for module cntr_example.
 Reading setup file /home/htf6ry/GF180PDK//gf180mcuC/libs.tech/netgen/gf180mcuC_setup.tcl
-Comparison output logged to file /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/logs/signoff/22-user_project_wrapper.lef.lvs.log
-Logging to file "/home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/logs/signoff/22-user_project_wrapper.lef.lvs.log" enabled
+Comparison output logged to file /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/logs/signoff/22-user_project_wrapper.lef.lvs.log
+Logging to file "/home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/logs/signoff/22-user_project_wrapper.lef.lvs.log" enabled
 
 Contents of circuit 1:  Circuit: 'cntr_example'
 Circuit cntr_example contains 0 device instances.
@@ -35,5 +35,5 @@ Circuit 1 contains 42 nets,    Circuit 2 contains 42 nets.
 Final result: 
 Circuits match uniquely.
 .
-Logging to file "/home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/logs/signoff/22-user_project_wrapper.lef.lvs.log" disabled
+Logging to file "/home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/logs/signoff/22-user_project_wrapper.lef.lvs.log" disabled
 LVS Done.

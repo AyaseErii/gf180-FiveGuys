@@ -1,4 +1,4 @@
-OpenROAD 7f00621cb612fd94e15b35790afe744c89d433a7 
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
 min_report
@@ -54,10 +54,10 @@ Corner: ss
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                          13.00   13.00 ^ input external delay
-                 25.44   16.07   29.07 ^ wb_rst_i (in)
-     1    0.20                           wb_rst_i (net)
-                 25.44    0.00   29.07 ^ cntr_example_1/wb_rst_i (cntr_example)
-                                 29.07   data arrival time
+                 10.48    6.39   19.39 ^ wb_rst_i (in)
+     1    0.39                           wb_rst_i (net)
+                 10.50    0.00   19.39 ^ cntr_example_1/wb_rst_i (cntr_example)
+                                 19.39   data arrival time
 -----------------------------------------------------------------------------
 (Path is unconstrained)
 
@@ -74,10 +74,10 @@ Corner: tt
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                          13.00   13.00 ^ input external delay
-                  4.66    2.91   15.91 ^ wb_rst_i (in)
-     1    0.20                           wb_rst_i (net)
-                  4.67    0.00   15.91 ^ cntr_example_1/wb_rst_i (cntr_example)
-                                 15.91   data arrival time
+                  6.14    3.86   16.86 ^ wb_rst_i (in)
+     1    0.39                           wb_rst_i (net)
+                  6.17    0.00   16.86 ^ cntr_example_1/wb_rst_i (cntr_example)
+                                 16.86   data arrival time
 -----------------------------------------------------------------------------
 (Path is unconstrained)
 
@@ -94,10 +94,10 @@ Corner: ff
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                          13.00   13.00 ^ input external delay
-                  2.15    1.40   14.40 ^ wb_rst_i (in)
-     1    0.20                           wb_rst_i (net)
-                  2.16    0.00   14.40 ^ cntr_example_1/wb_rst_i (cntr_example)
-                                 14.40   data arrival time
+                  4.06    2.64   15.64 ^ wb_rst_i (in)
+     1    0.39                           wb_rst_i (net)
+                  4.09    0.00   15.64 ^ cntr_example_1/wb_rst_i (cntr_example)
+                                 15.64   data arrival time
 -----------------------------------------------------------------------------
 (Path is unconstrained)
 
@@ -131,25 +131,55 @@ max slew
 
 Pin                                    Limit    Slew   Slack
 ------------------------------------------------------------
-wb_rst_i                               25.00   25.44   -0.44 (VIOLATED)
+wb_rst_i                                7.00   10.48   -3.48 (VIOLATED)
+wb_clk_i                                7.00    8.43   -1.43 (VIOLATED)
 
 max capacitance
 
 Pin                                    Limit     Cap   Slack
 ------------------------------------------------------------
-wb_rst_i                                0.19    0.20   -0.01 (VIOLATED)
+wb_rst_i                                0.24    0.39   -0.15 (VIOLATED)
+wb_clk_i                                0.24    0.31   -0.07 (VIOLATED)
 
 
 ======================= Typical Corner ===================================
 
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+wb_rst_i                                4.00    6.14   -2.14 (VIOLATED)
+wb_clk_i                                4.00    4.97   -0.97 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+wb_rst_i                                0.23    0.39   -0.15 (VIOLATED)
+wb_clk_i                                0.23    0.31   -0.08 (VIOLATED)
+
 
 ======================= Fastest Corner ===================================
 
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+wb_rst_i                                2.60    4.06   -1.46 (VIOLATED)
+wb_clk_i                                2.60    3.29   -0.69 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+wb_rst_i                                0.23    0.39   -0.16 (VIOLATED)
+wb_clk_i                                0.23    0.31   -0.08 (VIOLATED)
+
 
 ===========================================================================
-max slew violation count 1
+max slew violation count 2
 max fanout violation count 0
-max cap violation count 1
+max cap violation count 2
 ============================================================================
 check_slew_end
 tns_report
@@ -259,10 +289,10 @@ area_report_end
 Setting global connections for newly added cells...
 [WARNING] Did not save OpenROAD database!
 Writing SDF files for all corners...
-Writing SDF for the ff corner to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/results/routing/mca/process_corner_nom/user_project_wrapper.ff.sdf...
-Writing SDF for the ss corner to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/results/routing/mca/process_corner_nom/user_project_wrapper.ss.sdf...
-Writing SDF for the tt corner to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/results/routing/mca/process_corner_nom/user_project_wrapper.tt.sdf...
+Writing SDF for the ff corner to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/results/routing/mca/process_corner_nom/user_project_wrapper.ff.sdf...
+Writing SDF for the ss corner to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/results/routing/mca/process_corner_nom/user_project_wrapper.ss.sdf...
+Writing SDF for the tt corner to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/results/routing/mca/process_corner_nom/user_project_wrapper.tt.sdf...
 Writing timing models for all corners...
-Writing timing models for the ff corner to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/results/routing/mca/process_corner_nom/user_project_wrapper.ff.lib...
-Writing timing models for the ss corner to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/results/routing/mca/process_corner_nom/user_project_wrapper.ss.lib...
-Writing timing models for the tt corner to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/results/routing/mca/process_corner_nom/user_project_wrapper.tt.lib...
+Writing timing models for the ff corner to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/results/routing/mca/process_corner_nom/user_project_wrapper.ff.lib...
+Writing timing models for the ss corner to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/results/routing/mca/process_corner_nom/user_project_wrapper.ss.lib...
+Writing timing models for the tt corner to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/results/routing/mca/process_corner_nom/user_project_wrapper.tt.lib...

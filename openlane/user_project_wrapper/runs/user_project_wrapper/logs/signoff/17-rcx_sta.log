@@ -1,4 +1,4 @@
-OpenROAD 7f00621cb612fd94e15b35790afe744c89d433a7 
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
 min_report
@@ -28,10 +28,10 @@ Path Type: max
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                          13.00   13.00 ^ input external delay
-                  4.66    2.91   15.91 ^ wb_rst_i (in)
-     1    0.20                           wb_rst_i (net)
-                  4.67    0.00   15.91 ^ cntr_example_1/wb_rst_i (cntr_example)
-                                 15.91   data arrival time
+                  6.14    3.86   16.86 ^ wb_rst_i (in)
+     1    0.39                           wb_rst_i (net)
+                  6.17    0.00   16.86 ^ cntr_example_1/wb_rst_i (cntr_example)
+                                 16.86   data arrival time
 -----------------------------------------------------------------------------
 (Path is unconstrained)
 
@@ -47,11 +47,25 @@ check_slew
 ===========================================================================
  report_check_types -max_slew -max_cap -max_fanout -violators
 ============================================================================
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+wb_rst_i                                4.00    6.14   -2.14 (VIOLATED)
+wb_clk_i                                4.00    4.97   -0.97 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+wb_rst_i                                0.23    0.39   -0.15 (VIOLATED)
+wb_clk_i                                0.23    0.31   -0.08 (VIOLATED)
+
 
 ===========================================================================
-max slew violation count 0
+max slew violation count 2
 max fanout violation count 0
-max cap violation count 0
+max cap violation count 2
 ============================================================================
 check_slew_end
 tns_report
@@ -114,5 +128,5 @@ Design area 2250000 u^2 26% utilization.
 area_report_end
 Setting global connections for newly added cells...
 [WARNING] Did not save OpenROAD database!
-Writing SDF to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/results/routing/mca/process_corner_nom/user_project_wrapper.sdf...
-Writing timing model to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/results/routing/mca/process_corner_nom/user_project_wrapper.lib...
+Writing SDF to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/results/routing/mca/process_corner_nom/user_project_wrapper.sdf...
+Writing timing model to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/results/routing/mca/process_corner_nom/user_project_wrapper.lib...

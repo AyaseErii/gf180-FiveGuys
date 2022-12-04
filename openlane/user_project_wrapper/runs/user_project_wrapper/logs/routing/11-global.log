@@ -1,4 +1,4 @@
-OpenROAD 7f00621cb612fd94e15b35790afe744c89d433a7 
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
 [INFO]: Setting signal min routing layer to: Metal2 and clock min routing layer to Metal2. 
@@ -433,42 +433,114 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO GRT-0001] Minimum degree: 2
 [INFO GRT-0002] Maximum degree: 2
 [INFO GRT-0003] Macros: 1
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
+[WARNING GRT-0040] Net vdd has wires outside die area.
 [WARNING GRT-0040] Net vss has wires outside die area.
-[INFO GRT-0004] Blockages: 44
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[WARNING GRT-0040] Net vss has wires outside die area.
+[INFO GRT-0004] Blockages: 45
 
 [INFO GRT-0053] Routing resources analysis:
           Routing      Original      Derated      Resource
 Layer     Direction    Resources     Resources    Reduction (%)
 ---------------------------------------------------------------
 Metal1     Horizontal          0             0          0.00%
-Metal2     Vertical      1784286        860808          51.76%
-Metal3     Horizontal    1784286        860808          51.76%
-Metal4     Vertical      1784286        973611          45.43%
+Metal2     Vertical      1754424        853477          51.35%
+Metal3     Horizontal    1754424        857479          51.12%
+Metal4     Vertical      1754424        818148          53.37%
 ---------------------------------------------------------------
 
-[INFO GRT-0101] Running extra iterations to remove overflow.
-[INFO GRT-0197] Via related to pin nodes: 72
+[INFO GRT-0197] Via related to pin nodes: 68
 [INFO GRT-0198] Via related Steiner nodes: 0
 [INFO GRT-0199] Via filling finished.
-[INFO GRT-0111] Final number of vias: 136
-[INFO GRT-0112] Final usage 3D: 7263
+[INFO GRT-0111] Final number of vias: 120
+[INFO GRT-0112] Final usage 3D: 6893
 
 [INFO GRT-0096] Final congestion report:
 Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
 ---------------------------------------------------------------------------------------
 Metal1               0             0            0.00%             0 /  0 /  0
-Metal2          860808          3388            0.39%             0 /  0 /  0
-Metal3          860808          3467            0.40%             0 /  0 /  0
-Metal4          973611             0            0.00%             0 /  0 /  0
+Metal2          853477          2649            0.31%             0 /  0 /  0
+Metal3          857479          3884            0.45%             0 /  0 /  0
+Metal4          818148             0            0.00%             0 /  0 /  0
 ---------------------------------------------------------------------------------------
-Total          2695227          6855            0.25%             0 /  0 /  0
+Total          2529104          6533            0.26%             0 /  0 /  0
 
-[INFO GRT-0018] Total wirelength: 59404 um
+[INFO GRT-0018] Total wirelength: 56632 um
 [INFO GRT-0014] Routed nets: 22
 Setting global connections for newly added cells...
-Writing OpenROAD database to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/tmp/routing/11-global.odb...
-Writing layout to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/tmp/routing/11-global.def...
-Writing routing guides to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/tmp/routing/11-global.guide...
+Writing OpenROAD database to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/tmp/routing/11-global.odb...
+Writing layout to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/tmp/routing/11-global.def...
+Writing routing guides to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/tmp/routing/11-global.guide...
 [INFO]: Setting RC values...
 min_report
 
@@ -497,10 +569,10 @@ Path Type: max
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                          13.00   13.00 ^ input external delay
-                  0.91    0.53   13.53 ^ wb_rst_i (in)
+                  0.61    0.36   13.36 ^ wb_rst_i (in)
      1    0.04                           wb_rst_i (net)
-                  0.91    0.00   13.53 ^ cntr_example_1/wb_rst_i (cntr_example)
-                                 13.53   data arrival time
+                  0.61    0.00   13.36 ^ cntr_example_1/wb_rst_i (cntr_example)
+                                 13.36   data arrival time
 -----------------------------------------------------------------------------
 (Path is unconstrained)
 
@@ -582,6 +654,6 @@ area_report
 Design area 2250000 u^2 26% utilization.
 area_report_end
 Setting global connections for newly added cells...
-Writing OpenROAD database to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/tmp/routing/11-global.odb...
-Writing layout to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/tmp/routing/11-global.def...
-Writing routing guides to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/tmp/routing/11-global.guide...
+Writing OpenROAD database to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/tmp/routing/11-global.odb...
+Writing layout to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/tmp/routing/11-global.def...
+Writing routing guides to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_04_16_14/tmp/routing/11-global.guide...
