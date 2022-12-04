@@ -66,82 +66,82 @@ cntr_example: 120000 rects
 cntr_example: 130000 rects
 cntr_example: 140000 rects
 [INFO]: Writing abstract LEF
-Generating LEF output /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/cntr_example.lef for cell cntr_example:
+Generating LEF output /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/cntr_example.lef for cell cntr_example:
 Diagnostic:  Write LEF header for cell cntr_example
 Diagnostic:  Writing LEF output for cell cntr_example
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__clkbuf_4" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__clkbuf_4" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__buf_1" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__buf_1.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__buf_1" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__buf_1.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__buf_1.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__tiel" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__tiel.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__tiel" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__tiel.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__tiel.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__dffq_1" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__dffq_1.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__dffq_1" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__dffq_1.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__dffq_1.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__dffq_2" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__dffq_2.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__dffq_2" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__dffq_2.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__dffq_2.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__nor2_1" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__nor2_1.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__nor2_1" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__nor2_1.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__nor2_1.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__xor2_1" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__xor2_1.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__xor2_1" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__xor2_1.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__xor2_1.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__nand2_1" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__nand2_1.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__nand2_1" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__nand2_1.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__nand2_1.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__nand3_1" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__nand3_1.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__nand3_1" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__nand3_1.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__nand3_1.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__aoi21_1" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__aoi21_1.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__aoi21_1" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__aoi21_1.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__aoi21_1.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__oai21_1" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__oai21_1.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__oai21_1" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__oai21_1.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__oai21_1.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__buf_2" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__buf_2.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__buf_2" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__buf_2.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__buf_2.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__clkinv_3" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__clkinv_3.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__clkinv_3" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__clkinv_3.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__clkinv_3.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__filltie" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__filltie.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__filltie" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__filltie.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__filltie.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__endcap" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__endcap.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__endcap" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__endcap.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__endcap.mag.
 The discovered version will be used.
 Scaled magic input cell gf180mcu_fd_sc_mcu7t5v0__endcap geometry by factor of 2
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fill_1" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fill_1.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fill_1" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fill_1.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__fill_1.mag.
 The discovered version will be used.
 Scaled magic input cell gf180mcu_fd_sc_mcu7t5v0__fill_1 geometry by factor of 2
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fill_2" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fill_2.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fill_2" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fill_2.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__fill_2.mag.
 The discovered version will be used.
 Scaled magic input cell gf180mcu_fd_sc_mcu7t5v0__fill_2 geometry by factor of 2
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fillcap_4" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fillcap_4.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fillcap_4" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fillcap_4.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__fillcap_4.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fillcap_32" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fillcap_32.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fillcap_32" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fillcap_32.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__fillcap_32.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fillcap_8" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fillcap_8.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fillcap_8" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fillcap_8.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__fillcap_8.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fillcap_16" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fillcap_16.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fillcap_16" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fillcap_16.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__fillcap_16.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fillcap_64" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fillcap_64.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__fillcap_64" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__fillcap_64.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__fillcap_64.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__antenna" at bad file path /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/gf180mcu_fd_sc_mcu7t5v0__antenna.mag.
+Warning:  Parent cell lists instance of "gf180mcu_fd_sc_mcu7t5v0__antenna" at bad file path /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/gf180mcu_fd_sc_mcu7t5v0__antenna.mag.
 The cell exists in the search paths at /home/htf6ry/GF180PDK/gf180mcuC/libs.ref/gf180mcu_fd_sc_mcu7t5v0/maglef/gf180mcu_fd_sc_mcu7t5v0__antenna.mag.
 The discovered version will be used.
 Diagnostic:  Scale value is 0.005000

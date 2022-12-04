@@ -1,11 +1,11 @@
 OpenROAD 7f00621cb612fd94e15b35790afe744c89d433a7 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
-[INFO ODB-0222] Reading LEF file: /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/tmp/merged.nom.lef
+[INFO ODB-0222] Reading LEF file: /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/tmp/merged.nom.lef
 [INFO ODB-0223]     Created 13 technology layers
 [INFO ODB-0224]     Created 60 technology vias
 [INFO ODB-0225]     Created 229 library cells
-[INFO ODB-0226] Finished LEF file:  /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/tmp/merged.nom.lef
+[INFO ODB-0226] Finished LEF file:  /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/tmp/merged.nom.lef
 Reading netlist...
 [INFO]: Setting output delay to: 13.0
 [INFO]: Setting input delay to: 13.0
@@ -454,4 +454,4 @@ area_report
 Design area 2178 u^2 100% utilization.
 area_report_end
 [WARNING] Did not save OpenROAD database!
-Writing SDF to /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/synthesis/cntr_example.sdf...
+Writing SDF to /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/synthesis/cntr_example.sdf...

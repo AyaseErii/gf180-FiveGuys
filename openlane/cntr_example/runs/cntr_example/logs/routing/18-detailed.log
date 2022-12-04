@@ -89,7 +89,7 @@ Number of nets:           111
 #macroValidViaAp       = 0
 #macroNoAp             = 0
 [INFO DRT-0166] Complete pin access.
-[INFO DRT-0267] cpu time = 00:00:02, elapsed time = 00:00:01, memory = 326.21 (MB), peak = 360.11 (MB)
+[INFO DRT-0267] cpu time = 00:00:02, elapsed time = 00:00:01, memory = 325.39 (MB), peak = 359.21 (MB)
 
 Number of guides:     1196
 
@@ -137,36 +137,36 @@ Number of guides:     1196
 [INFO DRT-0184] Done with 402 vertical wires in 4 frboxes and 647 horizontal wires in 4 frboxes.
 [INFO DRT-0186] Done with 36 vertical wires in 4 frboxes and 59 horizontal wires in 4 frboxes.
 [INFO DRT-0182] Complete track assignment.
-[INFO DRT-0267] cpu time = 00:00:04, elapsed time = 00:00:02, memory = 415.68 (MB), peak = 632.34 (MB)
+[INFO DRT-0267] cpu time = 00:00:07, elapsed time = 00:00:04, memory = 456.02 (MB), peak = 630.75 (MB)
 [INFO DRT-0187] Start routing data preparation.
-[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 415.68 (MB), peak = 632.34 (MB)
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 456.02 (MB), peak = 630.75 (MB)
 [INFO DRT-0194] Start detail routing.
 [INFO DRT-0195] Start 0th optimization iteration.
     Completing 10% with 0 violations.
-    elapsed time = 00:00:01, memory = 769.63 (MB).
+    elapsed time = 00:00:01, memory = 774.91 (MB).
     Completing 20% with 0 violations.
-    elapsed time = 00:00:02, memory = 1252.08 (MB).
+    elapsed time = 00:00:02, memory = 1248.09 (MB).
     Completing 30% with 0 violations.
-    elapsed time = 00:00:03, memory = 1007.61 (MB).
+    elapsed time = 00:00:04, memory = 1052.14 (MB).
     Completing 40% with 0 violations.
-    elapsed time = 00:00:04, memory = 1230.75 (MB).
+    elapsed time = 00:00:06, memory = 1255.17 (MB).
     Completing 50% with 0 violations.
-    elapsed time = 00:00:06, memory = 1436.59 (MB).
+    elapsed time = 00:00:07, memory = 1467.45 (MB).
     Completing 60% with 0 violations.
-    elapsed time = 00:00:07, memory = 1437.64 (MB).
+    elapsed time = 00:00:09, memory = 1153.80 (MB).
     Completing 70% with 0 violations.
-    elapsed time = 00:00:08, memory = 1438.79 (MB).
+    elapsed time = 00:00:10, memory = 1374.27 (MB).
     Completing 80% with 0 violations.
-    elapsed time = 00:00:09, memory = 1458.67 (MB).
+    elapsed time = 00:00:12, memory = 1055.23 (MB).
     Completing 90% with 0 violations.
-    elapsed time = 00:00:10, memory = 1458.69 (MB).
+    elapsed time = 00:00:13, memory = 1275.92 (MB).
     Completing 100% with 1 violations.
-    elapsed time = 00:00:12, memory = 1412.00 (MB).
+    elapsed time = 00:00:15, memory = 1437.05 (MB).
 [INFO DRT-0199]   Number of violations = 35.
 Viol/Layer      Metal2 Metal3
 Metal Spacing        1      0
 Recheck             27      7
-[INFO DRT-0267] cpu time = 00:00:23, elapsed time = 00:00:12, memory = 1348.21 (MB), peak = 1476.13 (MB)
+[INFO DRT-0267] cpu time = 00:00:28, elapsed time = 00:00:15, memory = 1437.05 (MB), peak = 1475.48 (MB)
 Total wire length = 64342 um.
 Total wire length on LAYER Metal1 = 9 um.
 Total wire length on LAYER Metal2 = 28450 um.
@@ -188,27 +188,27 @@ Up-via summary (total 965):.
 
 [INFO DRT-0195] Start 1st optimization iteration.
     Completing 10% with 35 violations.
-    elapsed time = 00:00:00, memory = 1348.21 (MB).
+    elapsed time = 00:00:01, memory = 1438.08 (MB).
     Completing 20% with 35 violations.
-    elapsed time = 00:00:02, memory = 1358.78 (MB).
+    elapsed time = 00:00:02, memory = 1439.04 (MB).
     Completing 30% with 19 violations.
-    elapsed time = 00:00:03, memory = 1000.30 (MB).
+    elapsed time = 00:00:04, memory = 1453.16 (MB).
     Completing 40% with 19 violations.
-    elapsed time = 00:00:04, memory = 1226.32 (MB).
+    elapsed time = 00:00:05, memory = 1453.31 (MB).
     Completing 50% with 19 violations.
-    elapsed time = 00:00:05, memory = 1441.34 (MB).
+    elapsed time = 00:00:07, memory = 1544.83 (MB).
     Completing 60% with 6 violations.
-    elapsed time = 00:00:07, memory = 1442.63 (MB).
+    elapsed time = 00:00:09, memory = 1545.09 (MB).
     Completing 70% with 6 violations.
-    elapsed time = 00:00:08, memory = 1443.66 (MB).
+    elapsed time = 00:00:10, memory = 1545.17 (MB).
     Completing 80% with 2 violations.
-    elapsed time = 00:00:09, memory = 1011.70 (MB).
+    elapsed time = 00:00:12, memory = 1058.07 (MB).
     Completing 90% with 2 violations.
-    elapsed time = 00:00:10, memory = 1240.90 (MB).
+    elapsed time = 00:00:14, memory = 1314.85 (MB).
     Completing 100% with 0 violations.
-    elapsed time = 00:00:12, memory = 1441.73 (MB).
+    elapsed time = 00:00:15, memory = 1520.32 (MB).
 [INFO DRT-0199]   Number of violations = 0.
-[INFO DRT-0267] cpu time = 00:00:23, elapsed time = 00:00:12, memory = 902.64 (MB), peak = 1476.13 (MB)
+[INFO DRT-0267] cpu time = 00:00:30, elapsed time = 00:00:16, memory = 1520.32 (MB), peak = 1545.43 (MB)
 Total wire length = 64292 um.
 Total wire length on LAYER Metal1 = 7 um.
 Total wire length on LAYER Metal2 = 28409 um.
@@ -248,11 +248,11 @@ Up-via summary (total 963):.
            963
 
 
-[INFO DRT-0267] cpu time = 00:00:46, elapsed time = 00:00:24, memory = 902.64 (MB), peak = 1476.13 (MB)
+[INFO DRT-0267] cpu time = 00:00:58, elapsed time = 00:00:31, memory = 1520.32 (MB), peak = 1545.43 (MB)
 
 [INFO DRT-0180] Post processing.
 Setting global connections for newly added cells...
-Writing OpenROAD database to /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/routing/cntr_example.odb...
-Writing netlist to /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/routing/cntr_example.nl.v...
-Writing powered netlist to /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/routing/cntr_example.pnl.v...
-Writing layout to /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/routing/cntr_example.def...
+Writing OpenROAD database to /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/routing/cntr_example.odb...
+Writing netlist to /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/routing/cntr_example.nl.v...
+Writing powered netlist to /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/routing/cntr_example.pnl.v...
+Writing layout to /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/routing/cntr_example.def...

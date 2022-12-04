@@ -147,4 +147,4 @@ Reading "cntr_example".
     45000 uses
     50000 uses
     55000 uses
-[INFO]: Wrote /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/tmp/signoff/gds_ptrs.mag including GDS pointers.
+[INFO]: Wrote /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/tmp/signoff/gds_ptrs.mag including GDS pointers.

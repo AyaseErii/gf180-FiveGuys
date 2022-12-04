@@ -1,6 +1,6 @@
 << properties >>
 string FIXED_BBOX 0 0 300000 300000
 string GDS_END 8011482
-string GDS_FILE /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/results/signoff/cntr_example.magic.gds
+string GDS_FILE /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/cntr_example.magic.gds
 string GDS_START 105720
 << end >>
