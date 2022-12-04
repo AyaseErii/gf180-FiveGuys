@@ -30,7 +30,7 @@
  */
 
 module user_project_wrapper #(
-    parameter BITS = 20
+    parameter BITS = 32
 )(
 `ifdef USE_POWER_PINS
     inout vdd,		// User area 5.0V supply
@@ -135,7 +135,7 @@ cntr_example cntr_example_1 (
     // IO Pads
 
     //.io_in (io_in[3:0]),
-    .io_out(io_out[BITS-1:0])
+    .io_out(io_out[19:0])
     //.io_oeb(io_oeb),
 
     // IRQ
