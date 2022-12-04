@@ -1,14 +1,14 @@
 Design Name: cntr_example
-Run Directory: /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29
+Run Directory: /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36
 ----------------------------------------
 
 Magic DRC Summary:
-Source: /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/reports/signoff/drc.rpt
+Source: /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/reports/signoff/drc.rpt
 Total Magic DRC violations is 0
 ----------------------------------------
 
 LVS Summary:
-Source: /home/htf6ry/gf180-demo/openlane/cntr_example/runs/22_12_03_16_29/logs/signoff/cntr_example.lvs.lef.log
+Source: /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/logs/signoff/cntr_example.lvs.lef.log
 Source not found.
 ----------------------------------------
 
