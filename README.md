@@ -28,7 +28,7 @@ The command above will generate the digital counter design (gdsii) and all neces
 
 Before running the flow of `user_project_wrapper`, please make sure you changed the [user_project_wrapper.v](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/verilog/rtl/user_project_wrapper.v), [config.tcl](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/openlane/user_project_wrapper/config.tcl) for the `user_project_wrapper` design, and [macro.cfg](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/openlane/user_project_wrapper/macro.cfg) for macro placement.
 
-Once you have done with the above commands, you need to go to `gf180-demo-binary_counter` directory again, and use the command below:
+Once you have done with the above commands, you need to go to `gf180-FiveGuys` directory again, and use the command below:
 ```
 make user_project_wrapper
 ```
@@ -38,6 +38,19 @@ After the flow compeleted, you can repeat the Step 2 iteratively until you get a
 Sample result of the FiveGuys wrapper:
 ![image](https://user-images.githubusercontent.com/70917894/205464876-15474901-706c-4385-9581-77a05267b07f.png)
 
+### Step 3: Run the precheck
+Before running the precheck, you need to modify the [user_defines.v](https://github.com/AyaseErii/gf180-FiveGuys/blob/main/verilog/rtl/user_defines.v) to define `GPIO`s. Then you need to install the local precheck module which will just take a few seconds to finish the installation.
+```
+cd {YOUR_PROJECT_DIR}
+make precheck
+```
+After that you can start precheck process:
+```
+make run-precheck
+```
+This will take a few minutes to a few hours, depending on the size of the entire design.
+
+If the precheck finished with `{{SUCCESS}} All Checks Passed !!!`, you are done with the design and ready for tape-out, and congradulations!
 
 ## Contributors
 Jun (Jerry) Yin, Ceylan M. Morgul, Rahul Sreekumar, Xuanjia (Eric) Bi, and Mircea R. Stan.
