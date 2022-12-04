@@ -12,7 +12,7 @@ The following types are not handled by extraction and will be treated as non-ele
 Scaled tech values by 10 / 1 to match internal grid scaling
 Loading gf180mcuC Device Generator Menu ...
 Using technology "gf180mcuC", version 1.0.349-0-g0059588
-Reading LEF data from file /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/results/signoff/user_project_wrapper.lef.
+Reading LEF data from file /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/results/signoff/user_project_wrapper.lef.
 This action cannot be undone.
 LEF read: Processed 4383 lines.
 [INFO]: DONE GENERATING MAGLEF VIEW

@@ -51,10 +51,10 @@ LEF read, Line 296 (Message): Unknown keyword "ANTENNAGATEPLUSDIFF" in LEF file;
 LEF read, Line 301 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
 LEF read, Line 302 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
 LEF read: Processed 1366 lines.
-Reading LEF data from file /home/htf6ry/gf180-demo/openlane/user_project_wrapper/../../lef/cntr_example.lef.
+Reading LEF data from file /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/../../lef/cntr_example.lef.
 This action cannot be undone.
 LEF read: Processed 470 lines.
-Reading DEF data from file /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/results/routing/user_project_wrapper.def.
+Reading DEF data from file /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/results/routing/user_project_wrapper.def.
 This action cannot be undone.
   Processed 2 vias total.
   Processed 1 subcell instances total.

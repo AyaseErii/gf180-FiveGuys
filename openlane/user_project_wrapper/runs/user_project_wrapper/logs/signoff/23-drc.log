@@ -155,6 +155,6 @@ Loading DRC CIF style.
 No errors found.
 [INFO]: COUNT: 0
 [INFO]: Should be divided by 3 or 4
-[INFO]: DRC Checking DONE (/home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/reports/signoff/drc.rpt)
-[INFO]: Saving mag view with DRC errors (/home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/results/signoff/user_project_wrapper.drc.mag)
+[INFO]: DRC Checking DONE (/home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/reports/signoff/drc.rpt)
+[INFO]: Saving mag view with DRC errors (/home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/results/signoff/user_project_wrapper.drc.mag)
 [INFO]: Saved

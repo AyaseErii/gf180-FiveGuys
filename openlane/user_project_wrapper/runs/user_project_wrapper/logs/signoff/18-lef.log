@@ -51,7 +51,7 @@ LEF read, Line 296 (Message): Unknown keyword "ANTENNAGATEPLUSDIFF" in LEF file;
 LEF read, Line 301 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
 LEF read, Line 302 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
 LEF read: Processed 1366 lines.
-Reading LEF data from file /home/htf6ry/gf180-demo/openlane/user_project_wrapper/../../lef/cntr_example.lef.
+Reading LEF data from file /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/../../lef/cntr_example.lef.
 This action cannot be undone.
 LEF read: Processed 470 lines.
 user_project_wrapper: 10000 rects
@@ -70,7 +70,7 @@ user_project_wrapper: 130000 rects
 user_project_wrapper: 140000 rects
 Processing timestamp mismatches: cntr_example.
 [INFO]: Writing abstract LEF
-Generating LEF output /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/results/signoff/user_project_wrapper.lef for cell user_project_wrapper:
+Generating LEF output /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/results/signoff/user_project_wrapper.lef for cell user_project_wrapper:
 Diagnostic:  Write LEF header for cell user_project_wrapper
 Diagnostic:  Writing LEF output for cell user_project_wrapper
 Diagnostic:  Scale value is 0.005000

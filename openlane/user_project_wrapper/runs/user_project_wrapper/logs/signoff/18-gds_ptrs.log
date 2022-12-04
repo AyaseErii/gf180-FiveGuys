@@ -148,4 +148,4 @@ Reading "cntr_example".
     50000 uses
     55000 uses
 Reading "user_project_wrapper".
-[INFO]: Wrote /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/signoff/gds_ptrs.mag including GDS pointers.
+[INFO]: Wrote /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/tmp/signoff/gds_ptrs.mag including GDS pointers.

@@ -1,11 +1,11 @@
 OpenROAD 7f00621cb612fd94e15b35790afe744c89d433a7 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
-[INFO ODB-0222] Reading LEF file: /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/merged.nom.lef
+[INFO ODB-0222] Reading LEF file: /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/tmp/merged.nom.lef
 [INFO ODB-0223]     Created 13 technology layers
 [INFO ODB-0224]     Created 60 technology vias
 [INFO ODB-0225]     Created 230 library cells
-[INFO ODB-0226] Finished LEF file:  /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/merged.nom.lef
+[INFO ODB-0226] Finished LEF file:  /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/tmp/merged.nom.lef
 Reading netlist...
 [WARNING ORD-1011] LEF master cntr_example has no liberty cell.
 [INFO] Using the set CORE_AREA; ignoring core margin parameters
@@ -14,6 +14,6 @@ Reading netlist...
 [INFO IFP-0030] Inserted 0 tiecells using gf180mcu_fd_sc_mcu7t5v0__tiel/ZN.
 [INFO IFP-0030] Inserted 0 tiecells using gf180mcu_fd_sc_mcu7t5v0__tieh/Z.
 [INFO] Extracting DIE_AREA and CORE_AREA from the floorplan
-[INFO] Floorplanned on a die area of 0.0 0.0 3000.0 3000.0 (microns). Saving to /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/reports/floorplan/3-initial_fp_die_area.rpt.
-[INFO] Floorplanned on a core area of 21.84 23.52 2978.08 2975.28 (microns). Saving to /home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/reports/floorplan/3-initial_fp_core_area.rpt.
+[INFO] Floorplanned on a die area of 0.0 0.0 3000.0 3000.0 (microns). Saving to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/reports/floorplan/3-initial_fp_die_area.rpt.
+[INFO] Floorplanned on a core area of 21.84 23.52 2978.08 2975.28 (microns). Saving to /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/reports/floorplan/3-initial_fp_core_area.rpt.
 [WARNING] Did not save OpenROAD database!

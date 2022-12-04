@@ -27,12 +27,12 @@
 [TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
 [TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
 
-1. Executing Verilog-2005 frontend: /home/htf6ry/gf180-demo/caravel/verilog/rtl/defines.v
-Parsing Verilog input from `/home/htf6ry/gf180-demo/caravel/verilog/rtl/defines.v' to AST representation.
+1. Executing Verilog-2005 frontend: /home/htf6ry/gf180-demo-fiveguys/caravel/verilog/rtl/defines.v
+Parsing Verilog input from `/home/htf6ry/gf180-demo-fiveguys/caravel/verilog/rtl/defines.v' to AST representation.
 Successfully finished Verilog frontend.
 
-2. Executing Verilog-2005 frontend: /home/htf6ry/gf180-demo/openlane/user_project_wrapper/../../verilog/rtl/cntr_example.v
-Parsing Verilog input from `/home/htf6ry/gf180-demo/openlane/user_project_wrapper/../../verilog/rtl/cntr_example.v' to AST representation.
+2. Executing Verilog-2005 frontend: /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/../../verilog/rtl/cntr_example.v
+Parsing Verilog input from `/home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/../../verilog/rtl/cntr_example.v' to AST representation.
 Generating RTLIL representation for module `\cntr_example'.
 Generating RTLIL representation for module `\cntr_1'.
 Generating RTLIL representation for module `\cntr_2'.
@@ -41,17 +41,17 @@ Generating RTLIL representation for module `\cntr_4'.
 Generating RTLIL representation for module `\cntr_5'.
 Successfully finished Verilog frontend.
 
-3. Executing Verilog-2005 frontend: /home/htf6ry/gf180-demo/caravel/verilog/rtl/defines.v
-Parsing Verilog input from `/home/htf6ry/gf180-demo/caravel/verilog/rtl/defines.v' to AST representation.
+3. Executing Verilog-2005 frontend: /home/htf6ry/gf180-demo-fiveguys/caravel/verilog/rtl/defines.v
+Parsing Verilog input from `/home/htf6ry/gf180-demo-fiveguys/caravel/verilog/rtl/defines.v' to AST representation.
 Successfully finished Verilog frontend.
 
-4. Executing Verilog-2005 frontend: /home/htf6ry/gf180-demo/openlane/user_project_wrapper/../../verilog/rtl/user_project_wrapper.v
-Parsing Verilog input from `/home/htf6ry/gf180-demo/openlane/user_project_wrapper/../../verilog/rtl/user_project_wrapper.v' to AST representation.
+4. Executing Verilog-2005 frontend: /home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/../../verilog/rtl/user_project_wrapper.v
+Parsing Verilog input from `/home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/../../verilog/rtl/user_project_wrapper.v' to AST representation.
 Generating RTLIL representation for module `\user_project_wrapper'.
 Successfully finished Verilog frontend.
 
 5. Generating Graphviz representation of design.
-Writing dot description to `/home/htf6ry/gf180-demo/openlane/user_project_wrapper/runs/22_12_03_16_43/tmp/synthesis/hierarchy.dot'.
+Writing dot description to `/home/htf6ry/gf180-demo-fiveguys/openlane/user_project_wrapper/runs/22_12_03_21_42/tmp/synthesis/hierarchy.dot'.
 Dumping module user_project_wrapper to page 1.
 Warning: WIDTHLABEL \io_out [19:0] 20
 
@@ -268,6 +268,6 @@ Found and reported 156 problems.
 Dumping module `\user_project_wrapper'.
 
 Warnings: 158 unique messages, 158 total
-End of script. Logfile hash: 41461fe4cd, CPU: user 0.50s system 0.04s, MEM: 56.12 MB peak
+End of script. Logfile hash: 4eef2a2e1f, CPU: user 0.51s system 0.02s, MEM: 56.17 MB peak
 Yosys 0.22 (git sha1 f109fa3d4c5, gcc 8.3.1 -fPIC -Os)
 Time spent: 97% 2x stat (0 sec), 0% 8x read_verilog (0 sec), ...
