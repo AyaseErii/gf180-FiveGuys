@@ -1,5 +1,5 @@
 
-18. Executing CHECK pass (checking for obvious problems).
+19. Executing CHECK pass (checking for obvious problems).
 Checking module cntr_example...
 Warning: Wire cntr_example.\io_out [37] is used but has no driver.
 Warning: Wire cntr_example.\io_out [36] is used but has no driver.

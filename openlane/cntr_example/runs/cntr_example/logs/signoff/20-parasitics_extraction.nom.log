@@ -1,38 +1,37 @@
-OpenROAD 7f00621cb612fd94e15b35790afe744c89d433a7 
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
-[INFO ODB-0222] Reading LEF file: /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/tmp/merged.nom.lef
+[INFO ODB-0222] Reading LEF file: /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_04_16_09/tmp/merged.nom.lef
 [INFO ODB-0223]     Created 13 technology layers
 [INFO ODB-0224]     Created 60 technology vias
 [INFO ODB-0225]     Created 229 library cells
-[INFO ODB-0226] Finished LEF file:  /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/tmp/merged.nom.lef
-[INFO ODB-0127] Reading DEF file: /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/routing/cntr_example.def
+[INFO ODB-0226] Finished LEF file:  /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_04_16_09/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_04_16_09/results/routing/cntr_example.def
 [INFO ODB-0128] Design: cntr_example
 [INFO ODB-0130]     Created 42 pins.
-[INFO ODB-0131]     Created 58369 components and 117183 component-terminals.
-[INFO ODB-0132]     Created 2 special nets and 116738 connections.
-[INFO ODB-0133]     Created 111 nets and 445 connections.
-[INFO ODB-0134] Finished DEF file: /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/routing/cntr_example.def
-Using RCX ruleset '/home/htf6ry/GF180PDK//gf180mcuC/libs.tech/openlane/rules.openrcx.gf180mcuC.nom.magic'...
+[INFO ODB-0131]     Created 58381 components and 117214 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 116762 connections.
+[INFO ODB-0133]     Created 125 nets and 452 connections.
+[INFO ODB-0134] Finished DEF file: /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_04_16_09/results/routing/cntr_example.def
+Using RCX ruleset '/home/htf6ry/GF180PDK//gf180mcuC/libs.tech/openlane/rules.openrcx.gf180mcuC.nom'...
 [INFO RCX-0431] Defined process_corner X with ext_model_index 0
 [INFO RCX-0029] Defined extraction corner X
 [INFO RCX-0008] extracting parasitics of cntr_example ...
-[INFO RCX-0435] Reading extraction model file /home/htf6ry/GF180PDK//gf180mcuC/libs.tech/openlane/rules.openrcx.gf180mcuC.nom.magic ...
+[INFO RCX-0435] Reading extraction model file /home/htf6ry/GF180PDK//gf180mcuC/libs.tech/openlane/rules.openrcx.gf180mcuC.nom ...
 [INFO RCX-0436] RC segment generation cntr_example (max_merge_res 50.0) ...
-[INFO RCX-0040] Final 808 rc segments
+[INFO RCX-0040] Final 704 rc segments
 [INFO RCX-0439] Coupling Cap extraction cntr_example ...
 [INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
-[INFO RCX-0043] 1249 wires to be extracted
-[INFO RCX-0442] 14% completion -- 179 wires have been extracted
-[INFO RCX-0442] 65% completion -- 816 wires have been extracted
-[INFO RCX-0442] 76% completion -- 956 wires have been extracted
-[INFO RCX-0442] 100% completion -- 1249 wires have been extracted
-[INFO RCX-0045] Extract 111 nets, 919 rsegs, 919 caps, 708 ccs
+[INFO RCX-0043] 1333 wires to be extracted
+[INFO RCX-0442] 17% completion -- 235 wires have been extracted
+[INFO RCX-0442] 62% completion -- 835 wires have been extracted
+[INFO RCX-0442] 95% completion -- 1277 wires have been extracted
+[INFO RCX-0045] Extract 125 nets, 829 rsegs, 829 caps, 1087 ccs
 [INFO RCX-0015] Finished extracting cntr_example.
-Writing result to /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/routing/mca/process_corner_nom/cntr_example.spef...
+Writing result to /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_04_16_09/results/routing/mca/process_corner_nom/cntr_example.spef...
 Setting global connections for newly added cells...
 [WARNING] Did not save OpenROAD database!
-Writing extracted parasitics to /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/routing/mca/process_corner_nom/cntr_example.spef...
+Writing extracted parasitics to /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_04_16_09/results/routing/mca/process_corner_nom/cntr_example.spef...
 [INFO RCX-0016] Writing SPEF ...
-[INFO RCX-0443] 111 nets finished
+[INFO RCX-0443] 125 nets finished
 [INFO RCX-0017] Finished writing SPEF ...

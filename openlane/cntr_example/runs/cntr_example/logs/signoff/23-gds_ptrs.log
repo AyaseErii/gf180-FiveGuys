@@ -11,130 +11,35 @@ The following types are not handled by extraction and will be treated as non-ele
     obsactive mvobsactive filldiff fillpoly m1hole obsm1 fillm1 obsv1 m2hole obsm2 fillm2 obsv2 m3hole obsm3 fillm3 m4hole obsm4 fillm4 m5hole obsm5 fillm5 glass fillblock lvstext obscomment 
 Scaled tech values by 10 / 1 to match internal grid scaling
 Loading gf180mcuC Device Generator Menu ...
-Using technology "gf180mcuC", version 1.0.349-0-g0059588
+Using technology "gf180mcuC", version 1.0.359-0-g35c7265
 Warning: Calma reading is not undoable!  I hope that's OK.
 Library written using GDS-II Release 3.0
 Library name: cntr_example
-Reading "gf180mcu_fd_sc_mcu7t5v0__tiel".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__tiel.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__tiel.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__tiel.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__tiel.
-Reading "gf180mcu_fd_sc_mcu7t5v0__endcap".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__endcap.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__endcap.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__endcap.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__endcap.
-Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_16".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_16.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_16.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_16.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_16.
-Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_4".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_4.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_4.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_4.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_4.
-Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_8".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8.
-Reading "gf180mcu_fd_sc_mcu7t5v0__fill_1".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_1.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_1.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_1.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_1.
-Reading "gf180mcu_fd_sc_mcu7t5v0__filltie".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__filltie.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__filltie.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__filltie.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__filltie.
-Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_64".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64.
 Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_32".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32.
+Reading "gf180mcu_fd_sc_mcu7t5v0__fill_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_64".
+Reading "gf180mcu_fd_sc_mcu7t5v0__endcap".
+Reading "gf180mcu_fd_sc_mcu7t5v0__filltie".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_4".
 Reading "gf180mcu_fd_sc_mcu7t5v0__fill_2".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_2.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_2.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_2.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__fill_2.
 Reading "gf180mcu_fd_sc_mcu7t5v0__antenna".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__antenna.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__antenna.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__antenna.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__antenna.
-Reading "gf180mcu_fd_sc_mcu7t5v0__clkbuf_4".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.
-Reading "gf180mcu_fd_sc_mcu7t5v0__buf_1".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_1.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_1.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_1.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_1.
-Reading "gf180mcu_fd_sc_mcu7t5v0__clkinv_3".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__clkinv_3.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkinv_3.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkinv_3.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkinv_3.
-Reading "gf180mcu_fd_sc_mcu7t5v0__aoi21_1".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__aoi21_1.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__aoi21_1.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__aoi21_1.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__aoi21_1.
-Reading "gf180mcu_fd_sc_mcu7t5v0__nand2_1".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__nand2_1.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nand2_1.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nand2_1.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nand2_1.
-Reading "gf180mcu_fd_sc_mcu7t5v0__nand3_1".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__nand3_1.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nand3_1.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nand3_1.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nand3_1.
-Reading "gf180mcu_fd_sc_mcu7t5v0__nor2_1".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__nor2_1.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nor2_1.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nor2_1.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__nor2_1.
-Reading "gf180mcu_fd_sc_mcu7t5v0__oai21_1".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__oai21_1.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__oai21_1.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__oai21_1.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__oai21_1.
-Reading "gf180mcu_fd_sc_mcu7t5v0__xor2_1".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__xor2_1.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__xor2_1.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__xor2_1.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__xor2_1.
-Reading "gf180mcu_fd_sc_mcu7t5v0__buf_2".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_2.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_2.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_2.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__buf_2.
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_8".
 Reading "gf180mcu_fd_sc_mcu7t5v0__dffq_1".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_1.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_1.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_1.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_1.
-Reading "gf180mcu_fd_sc_mcu7t5v0__dffq_2".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_2.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_2.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_2.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__dffq_2.
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_16".
 Reading "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16".
-Moving label "& Vendor GLOBALFOUNDRIES" from space to nwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
-Moving label "& Product GF018hv5v_mcu_sc7" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
-Moving label "& Version 2015q2v1" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
-Moving label "& Metric 1.00" from space to pwell in cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkbuf_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nor2_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkbuf_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai21_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi21_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__buf_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkinv_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__xor2_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nand3_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nand2_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi21_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkbuf_3".
+Reading "gf180mcu_fd_sc_mcu7t5v0__tiel".
 Reading "cntr_example".
     5000 uses
     10000 uses
@@ -147,4 +52,4 @@ Reading "cntr_example".
     45000 uses
     50000 uses
     55000 uses
-[INFO]: Wrote /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/tmp/signoff/gds_ptrs.mag including GDS pointers.
+[INFO]: Wrote /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_04_16_09/tmp/signoff/gds_ptrs.mag including GDS pointers.

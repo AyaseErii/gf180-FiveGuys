@@ -11,8 +11,8 @@ The following types are not handled by extraction and will be treated as non-ele
     obsactive mvobsactive filldiff fillpoly m1hole obsm1 fillm1 obsv1 m2hole obsm2 fillm2 obsv2 m3hole obsm3 fillm3 m4hole obsm4 fillm4 m5hole obsm5 fillm5 glass fillblock lvstext obscomment 
 Scaled tech values by 10 / 1 to match internal grid scaling
 Loading gf180mcuC Device Generator Menu ...
-Using technology "gf180mcuC", version 1.0.349-0-g0059588
-Reading LEF data from file /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/results/signoff/cntr_example.lef.
+Using technology "gf180mcuC", version 1.0.359-0-g35c7265
+Reading LEF data from file /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_04_16_09/results/signoff/cntr_example.lef.
 This action cannot be undone.
-LEF read: Processed 470 lines.
+LEF read: Processed 471 lines.
 [INFO]: DONE GENERATING MAGLEF VIEW

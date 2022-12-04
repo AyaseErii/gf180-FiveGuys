@@ -1,16 +1,16 @@
-OpenROAD 7f00621cb612fd94e15b35790afe744c89d433a7 
+OpenROAD 7c85c140308f01b73f57ea1117f3e43f39abd437 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
-[INFO ODB-0222] Reading LEF file: /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/tmp/merged.nom.lef
+[INFO ODB-0222] Reading LEF file: /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_04_16_09/tmp/merged.nom.lef
 [INFO ODB-0223]     Created 13 technology layers
 [INFO ODB-0224]     Created 60 technology vias
 [INFO ODB-0225]     Created 229 library cells
-[INFO ODB-0226] Finished LEF file:  /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/tmp/merged.nom.lef
+[INFO ODB-0226] Finished LEF file:  /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_04_16_09/tmp/merged.nom.lef
 Reading netlist...
 [INFO IFP-0001] Added 374 rows of 2654 sites.
 [INFO IFP-0030] Inserted 0 tiecells using gf180mcu_fd_sc_mcu7t5v0__tiel/ZN.
 [INFO IFP-0030] Inserted 0 tiecells using gf180mcu_fd_sc_mcu7t5v0__tieh/Z.
 [INFO] Extracting DIE_AREA and CORE_AREA from the floorplan
-[INFO] Floorplanned on a die area of 0.0 0.0 1500.0 1500.0 (microns). Saving to /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/reports/floorplan/3-initial_fp_die_area.rpt.
-[INFO] Floorplanned on a core area of 6.72 15.68 1492.96 1481.76 (microns). Saving to /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_03_21_36/reports/floorplan/3-initial_fp_core_area.rpt.
+[INFO] Floorplanned on a die area of 0.0 0.0 1500.0 1500.0 (microns). Saving to /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_04_16_09/reports/floorplan/3-initial_fp_die_area.rpt.
+[INFO] Floorplanned on a core area of 6.72 15.68 1492.96 1481.76 (microns). Saving to /home/htf6ry/gf180-demo-fiveguys/openlane/cntr_example/runs/22_12_04_16_09/reports/floorplan/3-initial_fp_core_area.rpt.
 [WARNING] Did not save OpenROAD database!

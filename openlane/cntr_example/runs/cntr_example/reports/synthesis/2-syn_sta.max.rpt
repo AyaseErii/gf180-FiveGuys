@@ -2,8 +2,8 @@
 ===========================================================================
 report_checks -path_delay max (Setup)
 ============================================================================
-Startpoint: _098_ (rising edge-triggered flip-flop clocked by wb_clk_i)
-Endpoint: io_out[0] (output port clocked by wb_clk_i)
+Startpoint: _129_ (rising edge-triggered flip-flop clocked by wb_clk_i)
+Endpoint: io_out[13] (output port clocked by wb_clk_i)
 Path Group: wb_clk_i
 Path Type: max
 
@@ -11,11 +11,11 @@ Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                   0.15    0.00    0.00   clock wb_clk_i (rise edge)
                           0.00    0.00   clock network delay (ideal)
-                  0.15    0.00    0.00 ^ _098_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
-                  2.35    2.41    2.41 ^ _098_/Q (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
-     6    0.10                           io_out[0] (net)
-                  2.35    0.00    2.41 ^ io_out[0] (out)
-                                  2.41   data arrival time
+                  0.15    0.00    0.00 ^ _129_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
+                  1.56    1.62    1.62 ^ _129_/Q (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
+     5    0.09                           io_out[13] (net)
+                  1.56    0.00    1.62 ^ io_out[13] (out)
+                                  1.62   data arrival time
 
                   0.15   65.00   65.00   clock wb_clk_i (rise edge)
                           0.00   65.00   clock network delay (ideal)
@@ -25,13 +25,13 @@ Fanout     Cap    Slew   Delay    Time   Description
                                  51.75   data required time
 -----------------------------------------------------------------------------
                                  51.75   data required time
-                                 -2.41   data arrival time
+                                 -1.62   data arrival time
 -----------------------------------------------------------------------------
-                                 49.34   slack (MET)
+                                 50.13   slack (MET)
 
 
-Startpoint: _110_ (rising edge-triggered flip-flop clocked by wb_clk_i)
-Endpoint: io_out[12] (output port clocked by wb_clk_i)
+Startpoint: _113_ (rising edge-triggered flip-flop clocked by wb_clk_i)
+Endpoint: io_out[17] (output port clocked by wb_clk_i)
 Path Group: wb_clk_i
 Path Type: max
 
@@ -39,11 +39,11 @@ Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                   0.15    0.00    0.00   clock wb_clk_i (rise edge)
                           0.00    0.00   clock network delay (ideal)
-                  0.15    0.00    0.00 ^ _110_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
-                  2.35    2.41    2.41 ^ _110_/Q (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
-     6    0.10                           io_out[12] (net)
-                  2.35    0.00    2.41 ^ io_out[12] (out)
-                                  2.41   data arrival time
+                  0.15    0.00    0.00 ^ _113_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
+                  1.56    1.62    1.62 ^ _113_/Q (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
+     5    0.09                           io_out[17] (net)
+                  1.56    0.00    1.62 ^ io_out[17] (out)
+                                  1.62   data arrival time
 
                   0.15   65.00   65.00   clock wb_clk_i (rise edge)
                           0.00   65.00   clock network delay (ideal)
@@ -53,13 +53,13 @@ Fanout     Cap    Slew   Delay    Time   Description
                                  51.75   data required time
 -----------------------------------------------------------------------------
                                  51.75   data required time
-                                 -2.41   data arrival time
+                                 -1.62   data arrival time
 -----------------------------------------------------------------------------
-                                 49.34   slack (MET)
+                                 50.13   slack (MET)
 
 
-Startpoint: _094_ (rising edge-triggered flip-flop clocked by wb_clk_i)
-Endpoint: io_out[16] (output port clocked by wb_clk_i)
+Startpoint: _117_ (rising edge-triggered flip-flop clocked by wb_clk_i)
+Endpoint: io_out[1] (output port clocked by wb_clk_i)
 Path Group: wb_clk_i
 Path Type: max
 
@@ -67,11 +67,11 @@ Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                   0.15    0.00    0.00   clock wb_clk_i (rise edge)
                           0.00    0.00   clock network delay (ideal)
-                  0.15    0.00    0.00 ^ _094_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
-                  2.35    2.41    2.41 ^ _094_/Q (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
-     6    0.10                           io_out[16] (net)
-                  2.35    0.00    2.41 ^ io_out[16] (out)
-                                  2.41   data arrival time
+                  0.15    0.00    0.00 ^ _117_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
+                  1.56    1.62    1.62 ^ _117_/Q (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
+     5    0.09                           io_out[1] (net)
+                  1.56    0.00    1.62 ^ io_out[1] (out)
+                                  1.62   data arrival time
 
                   0.15   65.00   65.00   clock wb_clk_i (rise edge)
                           0.00   65.00   clock network delay (ideal)
@@ -81,13 +81,13 @@ Fanout     Cap    Slew   Delay    Time   Description
                                  51.75   data required time
 -----------------------------------------------------------------------------
                                  51.75   data required time
-                                 -2.41   data arrival time
+                                 -1.62   data arrival time
 -----------------------------------------------------------------------------
-                                 49.34   slack (MET)
+                                 50.13   slack (MET)
 
 
-Startpoint: _102_ (rising edge-triggered flip-flop clocked by wb_clk_i)
-Endpoint: io_out[4] (output port clocked by wb_clk_i)
+Startpoint: _121_ (rising edge-triggered flip-flop clocked by wb_clk_i)
+Endpoint: io_out[5] (output port clocked by wb_clk_i)
 Path Group: wb_clk_i
 Path Type: max
 
@@ -95,11 +95,11 @@ Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                   0.15    0.00    0.00   clock wb_clk_i (rise edge)
                           0.00    0.00   clock network delay (ideal)
-                  0.15    0.00    0.00 ^ _102_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
-                  2.35    2.41    2.41 ^ _102_/Q (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
-     6    0.10                           io_out[4] (net)
-                  2.35    0.00    2.41 ^ io_out[4] (out)
-                                  2.41   data arrival time
+                  0.15    0.00    0.00 ^ _121_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
+                  1.56    1.62    1.62 ^ _121_/Q (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
+     5    0.09                           io_out[5] (net)
+                  1.56    0.00    1.62 ^ io_out[5] (out)
+                                  1.62   data arrival time
 
                   0.15   65.00   65.00   clock wb_clk_i (rise edge)
                           0.00   65.00   clock network delay (ideal)
@@ -109,13 +109,13 @@ Fanout     Cap    Slew   Delay    Time   Description
                                  51.75   data required time
 -----------------------------------------------------------------------------
                                  51.75   data required time
-                                 -2.41   data arrival time
+                                 -1.62   data arrival time
 -----------------------------------------------------------------------------
-                                 49.34   slack (MET)
+                                 50.13   slack (MET)
 
 
-Startpoint: _106_ (rising edge-triggered flip-flop clocked by wb_clk_i)
-Endpoint: io_out[8] (output port clocked by wb_clk_i)
+Startpoint: _125_ (rising edge-triggered flip-flop clocked by wb_clk_i)
+Endpoint: io_out[9] (output port clocked by wb_clk_i)
 Path Group: wb_clk_i
 Path Type: max
 
@@ -123,11 +123,11 @@ Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
                   0.15    0.00    0.00   clock wb_clk_i (rise edge)
                           0.00    0.00   clock network delay (ideal)
-                  0.15    0.00    0.00 ^ _106_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
-                  2.35    2.41    2.41 ^ _106_/Q (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
-     6    0.10                           io_out[8] (net)
-                  2.35    0.00    2.41 ^ io_out[8] (out)
-                                  2.41   data arrival time
+                  0.15    0.00    0.00 ^ _125_/CLK (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
+                  1.56    1.62    1.62 ^ _125_/Q (gf180mcu_fd_sc_mcu7t5v0__dffq_1)
+     5    0.09                           io_out[9] (net)
+                  1.56    0.00    1.62 ^ io_out[9] (out)
+                                  1.62   data arrival time
 
                   0.15   65.00   65.00   clock wb_clk_i (rise edge)
                           0.00   65.00   clock network delay (ideal)
@@ -137,8 +137,8 @@ Fanout     Cap    Slew   Delay    Time   Description
                                  51.75   data required time
 -----------------------------------------------------------------------------
                                  51.75   data required time
-                                 -2.41   data arrival time
+                                 -1.62   data arrival time
 -----------------------------------------------------------------------------
-                                 49.34   slack (MET)
+                                 50.13   slack (MET)
 
 
