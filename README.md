@@ -63,3 +63,7 @@ ECE department of University of Virginia
 Refer to [README](docs/source/index.rst#section-quickstart) for a quickstart of how to use caravel_user_project
 
 Refer to [README](docs/source/index.rst) for this sample project documentation. 
+
+## Taped out chip
+
+![image](https://github.com/AyaseErii/gf180-FiveGuys/assets/70917894/146adc88-a0e0-4482-aabc-c4484d6b51ae)
